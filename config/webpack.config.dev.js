@@ -14,6 +14,7 @@ const paths = require('./paths');
 const ManifestPlugin = require('webpack-manifest-plugin');
 const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
 const pxtorem = require('postcss-pxtorem');
+const theme = require('../package.json').theme;
 
 
 // Webpack uses `publicPath` to determine where the app is being served from.
@@ -71,7 +72,18 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
     },
   ];
   if (preProcessor) {
-    loaders.push(require.resolve(preProcessor));
+    let loader = require.resolve(preProcessor)
+    if (preProcessor === "less-loader") {
+      loader = {
+        loader,
+        options: {
+          modifyVars: theme,
+          javascriptEnabled: true,
+        }
+      }
+    }
+    loaders.push(loader);
+    // loaders.push(require.resolve(preProcessor));
   }
   return loaders;
 };
@@ -317,7 +329,8 @@ module.exports = {
           },
           {
             test: lessRegex,
-            use: getStyleLoaders({ importLoaders: 2 }, 'less-loader')
+            use: getStyleLoaders({ importLoaders: 2 }, 'less-loader'),
+            // include: /node_modules/,
           },
           {
             test: lessModuleRegex,
@@ -329,13 +342,14 @@ module.exports = {
               },
               'less-loader'
             ),
+            // include: /node_modules/,
           },
           {
             test: /\.(svg)$/i,
             loader: 'svg-sprite-loader',
             include: [
               require.resolve('antd-mobile').replace(/warn\.js$/, ''),  // antd-mobile使用的svg目录
-              path.resolve(__dirname, '../src/assets/svg'),  // 个人的svg文件目录，如果自己有svg需要在这里配置
+              path.resolve(__dirname, './src/assets/svg'),  // 个人的svg文件目录，如果自己有svg需要在这里配置
             ]
           },
           // "file" loader makes sure those assets get served by WebpackDevServer.

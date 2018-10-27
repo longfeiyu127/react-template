@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Icon} from 'antd-mobile';
 import logo from './assets/svg/logo.svg';
 import './App.css';
+import './test.less'
 
 class App extends Component {
   render() {

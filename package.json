@@ -115,5 +115,14 @@
     "less-loader": "^4.1.0",
     "postcss-pxtorem": "^4.0.1",
     "svg-sprite-loader": "^0.3.1"
+  },
+  "theme": {
+    "brand-primary": "red",
+    "@brand-primary": "red",
+    "brand-primary-tap": "red",
+    "@brand-primary-tap": "red",
+    "brand-wait": "red",
+    "@brand-wait": "red",
+    "@color-text-base": "#333"
   }
 }
