@@ -17,6 +17,9 @@ const getCSSModuleLocalIdent = require('react-dev-utils/getCSSModuleLocalIdent')
 const paths = require('./paths');
 const getClientEnvironment = require('./env');
 const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
+const WebpackMonitor = require("webpack-monitor");
+const pxtorem = require('postcss-pxtorem');
+const theme = require('../package.json').theme;
 
 
 // Webpack uses `publicPath` to determine where the app is being served from.
@@ -48,6 +51,8 @@ const cssRegex = /\.css$/;
 const cssModuleRegex = /\.module\.css$/;
 const sassRegex = /\.(scss|sass)$/;
 const sassModuleRegex = /\.module\.(scss|sass)$/;
+const lessRegex = /\.less$/;
+const lessModuleRegex = /\.module\.less$/;
 
 // common function to get style loaders
 const getStyleLoaders = (cssOptions, preProcessor) => {
@@ -76,22 +81,41 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
           require('postcss-flexbugs-fixes'),
           require('postcss-preset-env')({
             autoprefixer: {
+              browsers: [
+                '>1%',
+                'last 4 versions',
+                'Firefox ESR',
+                'not ie < 9', // React doesn't support IE8 anyway
+              ],
               flexbox: 'no-2009',
             },
             stage: 3,
           }),
+          pxtorem({ rootValue: 100, propWhiteList: [] })
         ],
         sourceMap: shouldUseSourceMap,
       },
     },
   ];
   if (preProcessor) {
-    loaders.push({
+    let loader = {
       loader: require.resolve(preProcessor),
       options: {
         sourceMap: shouldUseSourceMap,
       },
-    });
+    }
+    if (preProcessor === "less-loader") {
+      loader = {
+        loader: require.resolve(preProcessor),
+        options: {
+          sourceMap: shouldUseSourceMap,
+          modifyVars: theme,
+          javascriptEnabled: true,
+        }
+      }
+    }
+
+    loaders.push(loader);
   }
   return loaders;
 };
@@ -99,7 +123,7 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
 // This is the production configuration.
 // It compiles slowly and is focused on producing a fast and minimal bundle.
 // The development configuration is different and lives in a separate file.
-module.exports = {
+const prodConfig = {
   mode: 'production',
   // Don't attempt to continue if there are any errors.
   bail: true,
@@ -286,6 +310,7 @@ module.exports = {
               ),
               
               plugins: [
+                ['import', { libraryName: 'antd-mobile', style: true }],
                 [
                   require.resolve('babel-plugin-named-asset-import'),
                   {
@@ -394,6 +419,38 @@ module.exports = {
               'sass-loader'
             ),
           },
+          {
+            test: lessRegex,
+            exclude: lessModuleRegex,
+            loader: getStyleLoaders(
+              {
+                importLoaders: 2,
+                sourceMap: shouldUseSourceMap,
+              },
+              'less-loader'
+            ),
+            sideEffects: true,
+          },
+          {
+            test: lessModuleRegex,
+            loader: getStyleLoaders(
+              {
+                importLoaders: 2,
+                sourceMap: shouldUseSourceMap,
+                modules: true,
+                getLocalIdent: getCSSModuleLocalIdent,
+              },
+              'less-loader'
+            ),
+          },
+          {
+            test: /\.(svg)$/i,
+            loader: 'svg-sprite-loader',
+            include: [
+              require.resolve('antd-mobile').replace(/warn\.js$/, ''),  // antd-mobile使用的svg目录
+              path.resolve(__dirname, './src/assets/svg'),  // 个人的svg文件目录，如果自己有svg需要在这里配置
+            ]
+          },
           // "file" loader makes sure assets end up in the `build` folder.
           // When you `import` an asset, you get its filename.
           // This loader doesn't use a "test" so it will catch all modules
@@ -498,3 +555,15 @@ module.exports = {
   // our own hints via the FileSizeReporter
   performance: false,
 };
+
+// if (process.env.ANALYZE) {
+//   prodConfig.plugins.push(
+//     new WebpackMonitor({
+//       capture: true,
+//       launch: true,
+//       port: 3031,
+//     })
+//   );
+// }
+
+module.exports = prodConfig

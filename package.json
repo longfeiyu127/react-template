@@ -57,6 +57,7 @@
     "start": "node scripts/start.js",
     "dev": "node scripts/start.js",
     "build": "node scripts/build.js",
+    "analyze": "cross-env ANALYZE=true npm run build",
     "test": "node scripts/test.js"
   },
   "eslintConfig": {
@@ -111,10 +112,12 @@
   },
   "devDependencies": {
     "babel-plugin-import": "^1.10.0",
+    "cross-env": "^5.2.0",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",
     "postcss-pxtorem": "^4.0.1",
-    "svg-sprite-loader": "^0.3.1"
+    "svg-sprite-loader": "^0.3.1",
+    "webpack-monitor": "^1.0.14"
   },
   "theme": {
     "brand-primary": "red",
