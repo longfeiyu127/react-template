@@ -112,6 +112,7 @@
   },
   "devDependencies": {
     "babel-plugin-import": "^1.10.0",
+    "compression-webpack-plugin": "^2.0.0",
     "cross-env": "^5.2.0",
     "less": "^3.8.1",
     "less-loader": "^4.1.0",

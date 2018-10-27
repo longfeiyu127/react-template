@@ -17,6 +17,7 @@ const getCSSModuleLocalIdent = require('react-dev-utils/getCSSModuleLocalIdent')
 const paths = require('./paths');
 const getClientEnvironment = require('./env');
 const ModuleNotFoundPlugin = require('react-dev-utils/ModuleNotFoundPlugin');
+const CompressionPlugin = require("compression-webpack-plugin");
 const WebpackMonitor = require("webpack-monitor");
 const pxtorem = require('postcss-pxtorem');
 const theme = require('../package.json').theme;
@@ -526,6 +527,15 @@ const prodConfig = {
     // https://github.com/jmblog/how-to-optimize-momentjs-with-webpack
     // You can remove this if you don't use Moment.js:
     new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+    // 开启gzip压缩
+    new CompressionPlugin({
+      // asset: "[path].gz[query]",
+      filename: '[path].gz[query]',
+      algorithm: "gzip",
+      test: /\.(js|html|css)$/,
+      threshold: 10240,
+      minRatio: 0.8
+    }),
     // Generate a service worker script that will precache, and keep up to date,
     // the HTML & assets that are part of the Webpack build.
     new WorkboxWebpackPlugin.GenerateSW({
