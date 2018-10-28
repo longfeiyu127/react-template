@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import {Icon} from 'antd-mobile';
+import { Icon } from 'antd-mobile';
 import logo from './assets/svg/logo.svg';
 import './App.css';
-import './test.less'
+import './test.less';
 
 class App extends Component {
   render() {
@@ -13,7 +13,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <img src={logo} className="test" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Edit
+            <code>src/App.js</code>
+            and save to reload.
           </p>
           <a
             className="App-link"

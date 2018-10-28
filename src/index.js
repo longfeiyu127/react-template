@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-document.documentElement.style.fontSize = window.innerWidth * 100 / 750 + 'px';
+document.documentElement.style.fontSize = `${(window.innerWidth * 100) /
+  750}px`;
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
