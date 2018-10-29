@@ -29,7 +29,7 @@ module.exports = {
         ]
       }
     ],
-    "react/prefer-stateless-function": 0,
+    // "react/prefer-stateless-function": 0,
     "no-plusplus": 0,
     "no-console": 0,
     "class-methods-use-this": 0,
