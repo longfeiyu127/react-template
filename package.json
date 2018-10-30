@@ -43,6 +43,9 @@
     "react-app-polyfill": "^0.1.3",
     "react-dev-utils": "^6.0.5",
     "react-dom": "^16.6.0",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2",
+    "redux-undo": "^0.6.1",
     "resolve": "1.8.1",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.0",
@@ -136,6 +139,12 @@
     "prettier": "^1.14.3",
     "svg-sprite-loader": "^0.3.1",
     "webpack-monitor": "^1.0.14"
+  },
+  "proxy": {
+    "/ols": {
+      "target": "http://100.84.46.218:3000",
+      "secure": true
+    }
   },
   "theme": {
     "brand-primary": "red",
