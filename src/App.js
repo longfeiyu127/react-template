@@ -1,6 +1,7 @@
 // import React, { Component } from 'react';
 import React from 'react';
 import { Icon } from 'antd-mobile';
+import Test from './containers/test/index';
 import logo from './assets/svg/logo.svg';
 import './App.css';
 import './test.less';
@@ -51,6 +52,7 @@ const App = () => (
       >
         Learn React
       </a>
+      <Test />
     </header>
   </div>
 );

@@ -6,8 +6,86 @@ import {
 } from '../../api';
 import { GAMEOVER } from '../reducers/ranking';
 
+const testData = [
+  {
+    email: 'devrsi0n@gmail.com',
+    profile_url: 'https://github.com/devrsi0n',
+    name: 'devrsi0n',
+    avatar_url: 'https://avatars3.githubusercontent.com/u/7880675?s=460&v=4',
+    score: 56100
+  },
+  {
+    email: null,
+    profile_url: 'https://github.com/qianmofeiyu',
+    name: 'qianmofeiyu',
+    avatar_url: 'https://avatars3.githubusercontent.com/u/32697970?v=4',
+    score: 51230
+  },
+  {
+    email: null,
+    profile_url: 'https://github.com/Xingli23',
+    name: 'Xingli23',
+    avatar_url: 'https://avatars1.githubusercontent.com/u/11779203?s=400&v=4',
+    score: 50692
+  },
+  {
+    email: null,
+    profile_url: 'https://github.com/eennoo',
+    name: 'eennoo',
+    avatar_url: 'https://avatars3.githubusercontent.com/u/18671018?s=400&v=4',
+    score: 50140
+  },
+  {
+    email: null,
+    profile_url: 'https://github.com/marzlia',
+    name: 'marzlia',
+    avatar_url: 'https://avatars2.githubusercontent.com/u/2350264?s=400&v=4',
+    score: 49240
+  },
+  {
+    email: null,
+    profile_url: 'https://github.com/CristL',
+    name: 'CristL',
+    avatar_url: 'https://avatars0.githubusercontent.com/u/12232386?s=400&v=4',
+    score: 42120
+  },
+  {
+    email: null,
+    profile_url: 'https://github.com/Jabinzou',
+    name: 'Jabinzou',
+    avatar_url: 'https://avatars2.githubusercontent.com/u/14176629?s=400&v=4',
+    score: 39048
+  },
+  {
+    email: null,
+    profile_url: 'https://github.com/danielfengyu',
+    name: 'danielfengyu',
+    avatar_url: 'https://avatars3.githubusercontent.com/u/9031507?s=400&v=4',
+    score: 35612
+  },
+  {
+    email: null,
+    profile_url: 'https://github.com/xiawenhu',
+    name: 'xiawenhu',
+    avatar_url: 'https://avatars1.githubusercontent.com/u/32698452?s=400&v=4',
+    score: 32288
+  },
+  {
+    email: null,
+    profile_url: 'https://github.com/Marlon2',
+    name: 'Marlon2',
+    avatar_url: 'https://avatars3.githubusercontent.com/u/4652178?s=400&v=4',
+    score: 29608
+  }
+];
+
+function getData() {
+  return new Promise(resolve => setTimeout(() => resolve(testData), 1500));
+}
+
 export function* getThenSetRankingList() {
-  const rsp = yield getRankingList();
+  // const rsp = yield getRankingList();
+  const rsp = yield getData();
   yield put({ type: 'SET_RANKING_LIST', data: rsp });
 }
 
