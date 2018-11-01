@@ -1,0 +1,22 @@
+{
+  "games": [
+    {
+      "title": "单机雷电",
+      "abstract": "点击雷电是一款炫酷华丽的飞机射击类单机游戏！超华丽的画面、超炫酷的爆炸效果、超流畅的手感，让你在万里苍穹一展雄姿！攻击特效华丽夸张！刺激火爆的场面",
+      "icon": "lightning_icon.png",
+      "path": "/games/lightning"
+    },
+    {
+      "title": "井字棋",
+      "abstract": "井字棋游戏是一款非常好的亲子游戏,既锻炼小孩子的思维,又能培养亲子之间的感情,来吧!一起体验井字棋的乐趣吧!",
+      "icon": "tictactoe_launcher.png",
+      "path": "/games/tictactoe"
+    },
+    {
+      "title": "五子棋",
+      "abstract": "五子棋游戏的历史可谓源远流长,是一款老少皆宜的两人对弈纯策略游戏,讲究的是有攻有守的五子棋技巧,玩法简单易上手,五个同色棋子连成一线就可以获胜",
+      "icon": "fivechess_icon.png",
+      "path": "/games/fivechess"
+    }
+  ]
+}

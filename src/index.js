@@ -4,6 +4,7 @@ import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import './index.css';
 import App from './App';
+import Home from './views/home';
 import Demo from './views/demo';
 import store from './service/store';
 import * as serviceWorker from './utils/serviceWorker';
@@ -15,7 +16,8 @@ ReactDOM.render(
   <Provider store={store}>
     <BrowserRouter>
       <Switch>
-        <Route exact path="/home" component={App} />
+        <Route exact path="/index" component={App} />
+        <Route exact path="/home" component={Home} />
         <Route path="/games" component={Demo} />
         <Route exact path="/routeDemo" component={App} />
         <Redirect from="/" to="/home" />

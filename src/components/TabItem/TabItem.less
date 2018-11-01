@@ -1,0 +1,46 @@
+.home-TabItem {
+  // height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0.15rem 0.2rem;
+  background: white;
+  margin-bottom: 0.08rem;
+  .TabItem-banner{
+    width: 0.62rem; 
+    height: 0.62rem;
+    // background: url(../../assets/images/games/lightning_icon.png) no-repeat center/100% 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0.08rem;
+  }
+  .TabItem-content{
+    width: 2rem;
+    >h5{
+      margin: 0;
+      line-height: 0.25rem;
+      font-size: 0.16rem;
+    }
+    >p{
+      margin: 0;
+      line-height: 0.19rem;
+      font-size: 0.12rem;
+      overflow:hidden; 
+      text-overflow:ellipsis;
+      display:-webkit-box; 
+      -webkit-box-orient:vertical;
+      -webkit-line-clamp:2; 
+    }
+  }
+  .TabItem-button{
+    width: 0.54rem;
+    height: 0.26rem;
+    border: 1px solid #3480FF;
+    line-height: 0.24rem;
+    text-align: center;
+    color: #3480FF;
+    border-radius: 0.02rem;
+  }
+}
