@@ -1,44 +1,63 @@
-import { createStore, applyMiddleware, compose } from 'redux';
-import createSagaMiddleware from 'redux-saga';
-import undoable from 'redux-undo';
-import rootReducer from './reducers';
-import rootSaga from './sagas';
+import { init } from '@rematch/core';
+import { reducer as reduxAsyncConnect } from 'redux-connect';
+import createLoadingPlugin from '@rematch/loading';
+import createRematchPersist from '@rematch/persist';
+// import models from '../models';
+import test from './modules/test';
 
-const initHistory = JSON.parse(localStorage.getItem('state') || 'null');
+function createStore() {
+  const loading = createLoadingPlugin();
+  const persistPlugin = createRematchPersist({
+    whitelist: ['test'],
+    // throttle: 50,
+    version: 1
+  });
+  const initialState = JSON.parse(localStorage.getItem('persist:root') || '{}');
+  for (const key in initialState) {
+    if (key !== '_persist') {
+      initialState[key] = JSON.parse(initialState[key]);
+    } else {
+      delete initialState[key];
+    }
+  }
+  console.log(initialState);
+  const store = init({
+    models: {
+      test
+    },
+    redux: {
+      reducers: {
+        reduxAsyncConnect
+      },
+      initialState
+      // middlewares: [...middlewares]
+    },
+    plugins: [loading, persistPlugin]
+  });
 
-const sagaMiddleware = createSagaMiddleware();
-/* eslint-disable no-underscore-dangle */
-const args = [
-  undoable(rootReducer, {
-    limit: 11, // set a limit for the history
-    ignoreInitialState: true
-  })
-];
-// Load localStorage data if available
-if (initHistory) {
-  args.push(initHistory);
+  // if (module.hot) {
+  //   // store hot reload
+  //   module.hot.accept('../models', () => {
+  //           const nextModels = require('../models').default // eslint-disable-line
+
+  //     Object.keys(nextModels).forEach(modelKey => {
+  //       store.model({
+  //         name: modelKey,
+  //         ...models[modelKey]
+  //       });
+  //     });
+  //   });
+  // }
+
+  return store;
 }
 
-if (window.__REDUX_DEVTOOLS_EXTENSION__) {
-  args.push(
-    compose(
-      applyMiddleware(sagaMiddleware),
-      // Redux devtools necessary code
-      window.__REDUX_DEVTOOLS_EXTENSION__()
-    )
-  );
-} else {
-  args.push(applyMiddleware(sagaMiddleware));
-}
+// const initHistory = JSON.parse(localStorage.getItem('state') || '{}');
+// store.subscribe(() => {
+//   const state = store.getState();
+//   localStorage.setItem('state', JSON.stringify(state));
+// });
 
-const store = createStore(...args);
-sagaMiddleware.run(rootSaga);
-
-// Call this function while redux state changed,
-// this callback save redux state to localStorage
-store.subscribe(() => {
-  const state = store.getState();
-  localStorage.setItem('state', JSON.stringify(state));
-});
+const store = createStore();
 
 export default store;
