@@ -1,0 +1,20 @@
+[
+  {
+    "title": "游戏库",
+    "key": "games",
+    "icon": "games",
+    "selectedIcon": "games"
+  },
+  {
+    "title": "排行榜",
+    "key": "ranks",
+    "icon": "ranks",
+    "selectedIcon": "ranks"
+  },
+  {
+    "title": "开发者",
+    "key": "developer",
+    "icon": "developer",
+    "selectedIcon": "developer"
+  }
+]

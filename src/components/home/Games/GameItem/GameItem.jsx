@@ -1,16 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './TabItem.less';
+import './GameItem.less';
 
-export default class Games extends React.Component {
+export default class GameItem extends React.Component {
   static propTypes = {
-    itemData: PropTypes.objectOf(
-      PropTypes.shape({
-        title: PropTypes.string,
-        abstract: PropTypes.string,
-        path: PropTypes.string
-      })
-    ).isRequired,
+    history: PropTypes.object.isRequired,
+    itemData: PropTypes.shape({
+      abstract: PropTypes.string,
+      title: PropTypes.string,
+      path: PropTypes.string
+    }).isRequired,
     img: PropTypes.string.isRequired
   };
 
@@ -20,8 +19,7 @@ export default class Games extends React.Component {
   }
 
   render() {
-    console.log(this.props);
-    // eslint-disable-next-line
+    // console.log(this.props);
     const { itemData, img, history } = this.props;
     const { title, abstract, path } = itemData;
     return (
@@ -38,5 +36,3 @@ export default class Games extends React.Component {
     );
   }
 }
-
-// export default Games;

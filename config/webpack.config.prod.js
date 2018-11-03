@@ -92,7 +92,10 @@ const getStyleLoaders = (cssOptions, preProcessor) => {
             },
             stage: 3,
           }),
-          pxtorem({ rootValue: 100, propWhiteList: [] })
+          pxtorem({ rootValue: 200,
+            propWhiteList: [],
+            selectorBlackList:['.am-']
+          })
         ],
         sourceMap: shouldUseSourceMap,
       },

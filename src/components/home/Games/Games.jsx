@@ -1,8 +1,9 @@
 import React from 'react';
 import { Tabs, Badge } from 'antd-mobile';
-import TabItem from '../../../../components/TabItem';
-import './games.less';
-import games from '../../../../config/games.json';
+import PropTypes from 'prop-types';
+import GameItem from './GameItem/GameItem';
+import './Games.less';
+import games from '../../../service/config/games.json';
 
 const tabs = [
   { title: <Badge>全部</Badge> },
@@ -11,7 +12,11 @@ const tabs = [
   { title: <Badge>分类</Badge> }
 ];
 
-export default class Games extends React.Component {
+export default class HomeGames extends React.Component {
+  static propTypes = {
+    history: PropTypes.object.isRequired
+  };
+
   constructor(props) {
     super(props);
     this.state = {};
@@ -20,17 +25,17 @@ export default class Games extends React.Component {
   render() {
     // console.log(games);
     // console.log(this.props.history)
-    /* eslint-disable */
     const { history } = this.props;
-    const AllGames = games.games.map((item, index) => (
-      <TabItem
+    const AllGames = games.games.map(item => (
+      /* eslint-disable */
+      <GameItem
         itemData={item}
         history={history}
-        img={require(`../../../../assets/images/games/${item.icon}`)}
-        key={index}
+        img={require(`../../../assets/images/games/${item.icon}`)}
+        key={item.path}
       />
+      /* eslint-enable */
     ));
-    /* eslint-enable */
     return (
       <div className="home-games">
         <Tabs
@@ -51,5 +56,3 @@ export default class Games extends React.Component {
     );
   }
 }
-
-// export default Games;

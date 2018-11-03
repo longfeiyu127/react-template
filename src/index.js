@@ -5,13 +5,14 @@ import { getPersistor } from '@rematch/persist';
 import { PersistGate } from 'redux-persist/lib/integration/react';
 import { renderRoutes } from 'react-router-config';
 import { Provider } from 'react-redux';
+import './utils/rem';
 import routes from './routes';
-import './index.css';
+import './assets/styles/index.less';
 import store from './service/store';
 import * as serviceWorker from './utils/serviceWorker';
 
 const persistor = getPersistor();
-document.documentElement.style.fontSize = `${(window.innerWidth * 100) /
+document.documentElement.style.fontSize = `${(window.innerWidth * 200) /
   750}px`;
 
 console.log(store);

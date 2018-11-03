@@ -1,3 +1,4 @@
+@import '../../../../assets/styles/theme.less';
 .home-TabItem {
   // height: 100%;
   width: 100%;
@@ -30,17 +31,19 @@
       overflow:hidden; 
       text-overflow:ellipsis;
       display:-webkit-box; 
-      -webkit-box-orient:vertical;
-      -webkit-line-clamp:2; 
+      /*! autoprefixer: off */
+      -webkit-box-orient: vertical;
+      // /* autoprefixer: on */
+      -webkit-line-clamp:2;
     }
   }
   .TabItem-button{
     width: 0.54rem;
     height: 0.26rem;
-    border: 1px solid #3480FF;
+    border: 1px solid @brand-primary;
     line-height: 0.24rem;
     text-align: center;
-    color: #3480FF;
+    color: @brand-primary;
     border-radius: 0.02rem;
   }
 }

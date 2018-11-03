@@ -1,7 +1,7 @@
-import company from './company';
+import developer from './developer';
 import userAgent from './userAgent';
 
 export default {
-  company,
+  developer,
   userAgent
 };

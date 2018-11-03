@@ -4,7 +4,6 @@ import { Icon } from 'antd-mobile';
 import Test from './containers/test/index';
 import logo from './assets/svg/logo.svg';
 import './App.css';
-import './test.less';
 
 // class App extends Component {
 //   render() {

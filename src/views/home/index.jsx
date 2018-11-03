@@ -5,9 +5,10 @@ import PropTypes from 'prop-types';
 // import './index.less'
 // import Routes from '../routes';
 // import { routes, Routes } from '../routes';
-import Games from './components/games';
-import Ranks from './components/ranks';
-import Developer from './components/developer';
+// import Games from './components/games';
+import HomeGames from '../../components/home/Games/Games';
+import HomeRanks from '../../components/home/Ranks/Ranks';
+import HomeDeveloper from '../../components/home/Developer/Developer';
 
 export default class Home extends React.Component {
   static propTypes = {
@@ -24,7 +25,7 @@ export default class Home extends React.Component {
   }
 
   render() {
-    console.log(this.props);
+    // console.log(this.props);
     // console.log(this.props.history);
     // console.log(routes)
     const { history } = this.props;
@@ -49,23 +50,20 @@ export default class Home extends React.Component {
             onPress={() => {
               this.setState({ selectedTab: 'games' });
             }}
-            data-seed="logId"
           >
-            <Games history={history} />
+            <HomeGames history={history} />
           </TabBar.Item>
           <TabBar.Item
             icon={<i className="iconfont icon-ranks" />}
             selectedIcon={<i className="iconfont icon-ranks icon-selected" />}
             title="排行榜"
             key="ranks"
-            // badge={'new'}
             selected={selectedTab === 'ranks'}
             onPress={() => {
               this.setState({ selectedTab: 'ranks' });
             }}
-            data-seed="logId1"
           >
-            <Ranks />
+            <HomeRanks />
           </TabBar.Item>
           <TabBar.Item
             icon={<i className="iconfont icon-developer" />}
@@ -79,7 +77,7 @@ export default class Home extends React.Component {
               this.setState({ selectedTab: 'developer' });
             }}
           >
-            <Developer />
+            <HomeDeveloper />
           </TabBar.Item>
         </TabBar>
       </div>
