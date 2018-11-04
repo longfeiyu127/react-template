@@ -1,5 +1,6 @@
 import Home from '../views/home';
 import Demo from '../views/demo';
+import Games from '../views/games';
 import App from '../App';
 
 const routes = [
@@ -14,6 +15,10 @@ const routes = [
   },
   {
     path: '/games',
+    component: Games
+  },
+  {
+    path: '/demo',
     component: Demo
   },
   {

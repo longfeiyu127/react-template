@@ -15,7 +15,6 @@ const persistor = getPersistor();
 document.documentElement.style.fontSize = `${(window.innerWidth * 200) /
   750}px`;
 
-console.log(store);
 ReactDOM.render(
   <Provider store={store}>
     <PersistGate persistor={persistor}>

@@ -2,8 +2,7 @@ import { init } from '@rematch/core';
 import { reducer as reduxAsyncConnect } from 'redux-connect';
 import createLoadingPlugin from '@rematch/loading';
 import createRematchPersist from '@rematch/persist';
-// import models from '../models';
-import test from './modules/test';
+import models from './modules';
 
 function createStore() {
   const loading = createLoadingPlugin();
@@ -20,11 +19,9 @@ function createStore() {
       delete initialState[key];
     }
   }
-  console.log(initialState);
+  // console.log(initialState);
   const store = init({
-    models: {
-      test
-    },
+    models,
     redux: {
       reducers: {
         reduxAsyncConnect
@@ -60,4 +57,13 @@ function createStore() {
 
 const store = createStore();
 
+// console.log(store.dispatch(store));
+/**
+ * dispatch => ({
+  // setTest: data => dispatch({ type: 'SET_TEST_TEST', data }),
+  setTest: dispatch.test.setTest,
+  getTest: dispatch.test.getTest
+  // onGetRankingList: () => dispatch({ type: 'GET_RANKLING_LIST' })
+}
+ */
 export default store;

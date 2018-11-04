@@ -1,0 +1,44 @@
+.g-tic-pointer{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .pointer{
+    height: 0.13rem;
+    width: 90%;
+    background: url('../../../../assets//images//games/tictactoe/result.png') no-repeat center;
+    background-size: 100% 100%;
+  }
+  .crosswise0{
+    position: relative;
+    top: -34%;
+  }
+  .crosswise2{
+    position: relative;
+    top: 32%;
+  }
+  .vertical{
+    transform:rotate(90deg);
+  }
+  .vertical0{
+    position: relative;
+    left: -34%;
+  }
+  .vertical2{
+    position: relative;
+    left: 33%;
+  }
+  .slant{
+    width: 100%;
+  }
+  .slant0{
+    transform:rotate(45deg);
+  }
+  .slant1{
+    transform:rotate(-45deg);
+  }
+}

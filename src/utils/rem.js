@@ -1,19 +1,21 @@
+import store from '../service/store';
+
 ((doc, win) => {
   const docEl = doc.documentElement;
+  const { dispatch, getState } = store;
   const resizeEvt =
     'orientationchange' in window ? 'orientationchange' : 'resize';
   function recalc() {
-    const { clientWidth, clientHeight } = docEl.clientWidth;
-    // const clientWidth = docEl.clientWidth;
-    // const clientHeight = docEl.clientHeight;
-    // win.clientWidth = clientWidth;
-    // win.clientHeight = clientHeight;
-    console.log(clientWidth);
-    console.log(clientHeight);
+    const { clientWidth, clientHeight } = docEl;
     if (!clientWidth) return;
+    if (getState().screen.clientHeight !== clientHeight) {
+      dispatch.screen.setClientHeight(clientHeight);
+    }
+    if (getState().screen.clientWidth !== clientWidth) {
+      dispatch.screen.setClientWidth(clientWidth);
+    }
     if (clientWidth < 750) {
       docEl.style.fontSize = `${200 * (clientWidth / 750)}px`;
-      // document.documentElement.style.fontSize = document.documentElement.clientWidth / 100 * 26.66 + 'px'
     } else {
       docEl.style.fontSize = `${200}px`;
     }

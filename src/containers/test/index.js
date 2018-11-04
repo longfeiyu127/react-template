@@ -4,15 +4,15 @@ import PropTypes from 'prop-types';
 /* eslint-disable */
 class Test extends Component {
   static propTypes = {
-    list: PropTypes.arrayOf(
-      PropTypes.shape({
-        email: PropTypes.string,
-        html_url: PropTypes.string,
-        name: PropTypes.string,
-        avatar_url: PropTypes.string,
-        score: PropTypes.number
-      })
-    ).isRequired,
+    // list: PropTypes.arrayOf(
+    //   PropTypes.shape({
+    //     email: PropTypes.string,
+    //     html_url: PropTypes.string,
+    //     name: PropTypes.string,
+    //     avatar_url: PropTypes.string,
+    //     score: PropTypes.number
+    //   })
+    // ).isRequired,
     test: PropTypes.number.isRequired,
     setTest: PropTypes.func.isRequired,
     getTest: PropTypes.func.isRequired

@@ -1,0 +1,122 @@
+@import '../../../assets/styles/theme.less';
+
+@particles: 100;
+// @width: 200;
+@width: 500;
+
+// @count: 32;
+@count: 60;
+
+@var: `Math.random()`;
+
+@box-shadow: 0 0 #fff;
+
+@0px:0px;
+
+// .a(){
+//   @var1: @var;
+//   box-shadow+: @var*@width - @width/2 + @0px @var*@width - @width/1.2 + @0px hsl(@var*360, 100%, 50%);
+// };
+// .b(){
+//   box-shadow+_: @var*@width - @width/1.2 + @0px; 
+// };
+// .c(){
+//   box-shadow+_: hsl(@var*360, 100%, 50%);
+// };
+
+.loop(@i) when (@i < @count){
+  // .a();
+  @var1: @var*3.1415*2;
+  @x: sin(@var1)*@width;
+  @y: cos(@var1)*@width;
+  // box-shadow+: @x + @0px @y + @0px hsl(@var*360, 100%, 50%);
+  box-shadow+: @var*@width - @width/2 + @0px @var*@width - @width/1.2 + @0px hsl(@var*360, 100%, 50%);
+  .loop(@i+1);
+}
+
+.loop1(@i) when (@i < @count){
+  box-shadow+: @box-shadow;
+  .loop1(@i+1);
+}
+
+.firework-box{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: @firework-zindex;
+  background: @fill-mask2;
+}
+
+.firework{
+  position: absolute;
+  top: 50%;
+  // left: 50%;
+  width: 80%;
+  // margin-left: -40%;
+  margin-top: -150px; 
+  height: 300px;
+}
+
+.firework > .before,
+.firework > .after {
+  animation: 1s bang ease-out infinite backwards,
+    1s gravity ease-in infinite backwards, 5s position linear infinite backwards;
+  border-radius: 50%;
+  .loop1(1);
+  height: 5px;
+  position: absolute;
+  width: 5px;
+}
+
+.firework > .after {
+  // animation-delay: 10s, 10s, 10s;
+  animation-duration: 1.25s, 1.25s, 6.25s;
+}
+
+/* stylelint-disable max-nesting-depth */
+@keyframes bang {
+  to {
+    .loop(1);
+  }
+}
+
+@keyframes gravity {
+  to {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+}
+
+@keyframes position {
+  0%,
+  19.9% {
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+
+  20%,
+  39.9% {
+    margin-left: 30%;
+    margin-top: 40%;
+  }
+
+  40%,
+  59.9% {
+    margin-left: 70%;
+    margin-top: 20%;
+  }
+
+  60%,
+  79.9% {
+    margin-left: 20%;
+    margin-top: 30%;
+  }
+
+  80%,
+  99.9% {
+    margin-left: 80%;
+    margin-top: 30%;
+  }
+}
