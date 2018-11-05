@@ -49,12 +49,6 @@ function createStore() {
   return store;
 }
 
-// const initHistory = JSON.parse(localStorage.getItem('state') || '{}');
-// store.subscribe(() => {
-//   const state = store.getState();
-//   localStorage.setItem('state', JSON.stringify(state));
-// });
-
 const store = createStore();
 
 // console.log(store.dispatch(store));
@@ -66,4 +60,7 @@ const store = createStore();
   // onGetRankingList: () => dispatch({ type: 'GET_RANKLING_LIST' })
 }
  */
+console.log(store);
+console.log(models);
+
 export default store;

@@ -22,7 +22,7 @@ function checkLineType(line) {
 }
 
 const TictactoePointer = props => {
-  console.log(props);
+  // console.log(props);
   // eslint-disable-next-line
   const { line } = props;
   const lineType = checkLineType(line);

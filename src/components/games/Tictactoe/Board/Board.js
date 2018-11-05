@@ -17,7 +17,7 @@ function TictactoeBoard(props) {
               value={squares[i][j]}
               key={j}
               heightLine={line && line.some(v => v[0] === i && v[1] === j)}
-              onClick={() => onClick(i, j)}
+              onClick={() => onClick({ i, j })}
             />
           ))}
         </div>

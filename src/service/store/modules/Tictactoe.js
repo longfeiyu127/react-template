@@ -1,4 +1,4 @@
-function calculateWinner(squares) {
+function calculateWinner(squares, callback, state) {
   const resultArr = [
     [[0, 0], [0, 1], [0, 2]],
     [[1, 0], [1, 1], [1, 2]],
@@ -18,14 +18,15 @@ function calculateWinner(squares) {
     );
   });
   if (res) {
-    this.line = res ? lineRes : null;
-    this.gameover = !!res;
+    callback(state, { res, lineRes });
   }
   return res;
 }
 
 const Tictactoe = {
   state: {
+    line: null,
+    gameover: false,
     stepNumber: 0,
     history: [
       {
@@ -42,7 +43,7 @@ const Tictactoe = {
       const historyArr = history.slice(0, stepNumber + 1);
       const current = historyArr[historyArr.length - 1];
       const squares = JSON.parse(JSON.stringify(current.squares));
-      if (squares[i][j] || calculateWinner(squares)) {
+      if (squares[i][j] || calculateWinner(squares, this)) {
         return state;
       }
       squares[i][j] = xIsNext ? 'X' : 'O';
@@ -55,7 +56,13 @@ const Tictactoe = {
         stepNumber: historyArr.length,
         xIsNext: !xIsNext
       };
-      if (calculateWinner(squares)) {
+      if (
+        calculateWinner(
+          squares,
+          Tictactoe.reducers.setGameover,
+          Tictactoe.state
+        )
+      ) {
         data = {
           ...data,
           oWin: !xIsNext ? oWin + 1 : oWin,
@@ -70,6 +77,8 @@ const Tictactoe = {
     setReset(state) {
       return {
         ...state,
+        line: null,
+        gameover: false,
         stepNumber: 0,
         history: [
           {
@@ -89,31 +98,20 @@ const Tictactoe = {
         stepNumber: step,
         xIsNext: !(step % 2)
       };
+    },
+    setGameover(state, { res, lineRes }) {
+      console.log(state);
+      console.log(res);
+      console.log(!!res);
+      console.log(lineRes);
+      return {
+        ...state,
+        line: res ? lineRes : null,
+        gameover: !!res
+      };
     }
-    /**
-     *     this.setState({
-      history: historyArr.concat([
-        {
-          squares
-        }
-      ]),
-      stepNumber: historyArr.length,
-      xIsNext: !xIsNext
-    });
-     */
   },
-  effects: {
-    async getTest() {
-      console.log('chufagetTest');
-      // 第二个变量为当前model的state的值，num1为调用incrementAsync时传递进来的第一个参数，num2为调用时传递的第二个参数，后面依次类推。例如：dispatch.count.incrementAsync(10, 20)时，num1 = 10, num2 = 20
-      await new Promise(resolve => {
-        setTimeout(() => {
-          this.setTest(0);
-          resolve();
-        }, 2000);
-      });
-    }
-  }
+  effects: {}
 };
 
 export default Tictactoe;

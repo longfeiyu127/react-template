@@ -6,7 +6,7 @@ function TictactoeSquare(props) {
   // console.log(props)
   // eslint-disable-next-line
   const { onClick, heightLine, value } = props;
-  console.log(props);
+  // console.log(props);
   const squareItem = value
     ? value === 'O'
       ? 'squareItemO'
