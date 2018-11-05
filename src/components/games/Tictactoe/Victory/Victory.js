@@ -9,8 +9,10 @@ function TictactoeVictory(props) {
   const winner = xIsNext ? 'playerB' : 'playerA';
   return (
     <div className="g-tic-victory">
-      <p>{winner} 胜利了</p>
-      <p onClick={reset}>再来</p>
+      <p className="winner">{winner} Win</p>
+      <p className="again" onClick={reset}>
+        Again
+      </p>
     </div>
   );
 }
