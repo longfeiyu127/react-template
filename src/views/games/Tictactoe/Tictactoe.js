@@ -1,7 +1,7 @@
 import React from 'react';
-import TictactoeBoard from '../../../components/games/Tictactoe/Board/Board';
-import TictactoeScoreboard from '../../../components/games/Tictactoe/Scoreboard/Scoreboard';
-import TictactoeVictory from '../../../components/games/Tictactoe/Victory/Victory';
+import TictactoeBoard from '../../../components/games/tictactoe/Board/Board';
+import TictactoeScoreboard from '../../../components/games/tictactoe/Scoreboard/Scoreboard';
+import TictactoeVictory from '../../../components/games/tictactoe/Victory/Victory';
 import Firework from '../../../components/common/Firework/Firework';
 import './Tictactoe.less';
 
@@ -25,7 +25,6 @@ export default class Tictactoe extends React.Component {
   }
 
   calculateWinner(squares) {
-    // const {xIsNext, xWin, oWin} = this.state
     const resultArr = [
       [[0, 0], [0, 1], [0, 2]],
       [[1, 0], [1, 1], [1, 2]],
