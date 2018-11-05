@@ -7,7 +7,7 @@ import models from './modules';
 function createStore() {
   const loading = createLoadingPlugin();
   const persistPlugin = createRematchPersist({
-    whitelist: ['test'],
+    whitelist: ['test', 'Tictactoe'],
     // throttle: 50,
     version: 1
   });

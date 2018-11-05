@@ -1,4 +1,4 @@
-function calculateWinner(squares, callback, state) {
+function calculateWinner(squares) {
   const resultArr = [
     [[0, 0], [0, 1], [0, 2]],
     [[1, 0], [1, 1], [1, 2]],
@@ -18,7 +18,7 @@ function calculateWinner(squares, callback, state) {
     );
   });
   if (res) {
-    callback(state, { res, lineRes });
+    return { gameover: !!res, line: lineRes };
   }
   return res;
 }
@@ -56,17 +56,14 @@ const Tictactoe = {
         stepNumber: historyArr.length,
         xIsNext: !xIsNext
       };
-      if (
-        calculateWinner(
-          squares,
-          Tictactoe.reducers.setGameover,
-          Tictactoe.state
-        )
-      ) {
+      const result = calculateWinner(squares);
+      if (result) {
         data = {
           ...data,
           oWin: !xIsNext ? oWin + 1 : oWin,
-          xWin: xIsNext ? xWin + 1 : xWin
+          xWin: xIsNext ? xWin + 1 : xWin,
+          line: result.gameover ? result.line : null,
+          gameover: result.gameover
         };
       }
       return {
@@ -97,17 +94,6 @@ const Tictactoe = {
         ...state,
         stepNumber: step,
         xIsNext: !(step % 2)
-      };
-    },
-    setGameover(state, { res, lineRes }) {
-      console.log(state);
-      console.log(res);
-      console.log(!!res);
-      console.log(lineRes);
-      return {
-        ...state,
-        line: res ? lineRes : null,
-        gameover: !!res
       };
     }
   },

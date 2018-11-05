@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 // import PropTypes from 'prop-types';
 import Square from '../Square/Square';
 import Pointer from '../Pointer/Pointer';
@@ -6,8 +7,9 @@ import './Board.less';
 
 function TictactoeBoard(props) {
   // eslint-disable-next-line
-  const { squares, onClick, line } = props;
+  const { onClick, line, history, stepNumber } = props;
   // console.log(line);
+  const { squares } = history[stepNumber];
   return (
     <div className="g-tic-board">
       {squares.map((item, i) => (
@@ -27,10 +29,17 @@ function TictactoeBoard(props) {
   );
 }
 
-// TictactoeBoard.propTypes = {
-//   squares: PropTypes.arrayOf(PropTypes.array).isRequired,
-//   line: PropTypes.oneOf([null, PropTypes.array]).isRequired,
-//   onClick: PropTypes.func.isRequired
-// };
+const mapStateToProps = state => ({
+  history: state.Tictactoe.history,
+  stepNumber: state.Tictactoe.stepNumber,
+  line: state.Tictactoe.line
+});
 
-export default TictactoeBoard;
+const mapDispatchToProps = dispatch => ({
+  onClick: dispatch.Tictactoe.setChess
+});
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(TictactoeBoard);

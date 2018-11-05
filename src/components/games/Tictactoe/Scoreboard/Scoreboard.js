@@ -1,4 +1,5 @@
 import React from 'react';
+import { connect } from 'react-redux';
 // import PropTypes from 'prop-types';
 import './Scoreboard.less';
 
@@ -22,9 +23,12 @@ const TictactoeScoreboard = props => {
   );
 };
 
-// TictactoeScoreboard.propTypes = {
-//   xWin: PropTypes.number.isRequired,
-//   oWin: PropTypes.number.isRequired
-// };
+const mapStateToProps = state => ({
+  xWin: state.Tictactoe.xWin,
+  oWin: state.Tictactoe.oWin
+});
 
-export default TictactoeScoreboard;
+export default connect(
+  mapStateToProps,
+  null
+)(TictactoeScoreboard);

@@ -36,6 +36,7 @@ module.exports = {
     "no-restricted-syntax": 0,
     "react/forbid-prop-types": 0,
     'jsx-a11y/click-events-have-key-events': 0,
+    'jsx-a11y/no-noninteractive-element-interactions': 0,
     'no-nested-ternary': 0,
     'react/jsx-one-expression-per-line': 0,
     'react/no-array-index-key': 0,
