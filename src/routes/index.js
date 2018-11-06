@@ -23,7 +23,8 @@ const routes = [
   },
   {
     path: '*',
-    component: App
+    redirect: '/home',
+    component: Home
   }
 ];
 

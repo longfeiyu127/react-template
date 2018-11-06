@@ -1,0 +1,36 @@
+.g-lig-engine{
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  >.background{
+    height: 200%;
+    width: 100%;
+    position: relative;
+    position: absolute;
+    top: -100%;
+    animation: downward 15s linear infinite;
+    background: url('../../../../assets/images/games/lightning/bg2.jpg') repeat-y;
+    background-size: 100% 50%;
+  }
+  .pause{
+    height: 43Px;
+    background: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+  }
+  .pauseT{
+    height: 43Px;
+    background: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 20;
+  }
+  @keyframes downward {
+    to {
+      top: 0%;
+    }
+  }
+}

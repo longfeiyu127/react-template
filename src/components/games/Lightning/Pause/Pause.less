@@ -1,0 +1,30 @@
+@import '../../../../assets/styles/theme.less';
+.g-lig-Pause{
+  .Pause-main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: @firework-zindex;
+    background: @fill-mask;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .start:before{
+    font-size: 100px;
+  }
+  .Pause-pause{
+    position: absolute;
+    right: 15PX;
+    top: 15Px;
+    z-index: @firework-zindex;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  .Pause-pause:before{
+    display: block;
+    font-size: 50px;
+  }
+}

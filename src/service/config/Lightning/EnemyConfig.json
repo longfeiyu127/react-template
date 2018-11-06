@@ -1,0 +1,74 @@
+{
+  "enemyA0": {
+    "size": {
+      "height": 0.45,
+      "width": 0.45
+    },
+    "position": {
+      "top": -0.45,
+      "left": 2
+    },
+    "targetPosition": {
+      "top": "max",
+      "left": "remain"
+    },
+    "enemyType": "enemyA0",
+    "HP": 1,
+    "speed": 0.02,
+    "status": "healthy"
+  },
+  "enemyA1": {
+    "size": {
+      "height": 0.45,
+      "width": 0.45
+    },
+    "position": {
+      "top": -0.45,
+      "left": 2
+    },
+    "targetPosition": {
+      "top": "max",
+      "left": "remain"
+    },
+    "enemyType": "enemyA1",
+    "HP": 1,
+    "speed": 0.02,
+    "status": "healthy"
+  },
+  "enemyA2": {
+    "size": {
+      "height": 0.45,
+      "width": 0.45
+    },
+    "position": {
+      "top": -0.45,
+      "left": 2
+    },
+    "targetPosition": {
+      "top": "max",
+      "left": "remain"
+    },
+    "enemyType": "enemyA2",
+    "HP": 1,
+    "speed": 0.02,
+    "status": "healthy"
+  },
+  "enemyC": {
+    "size": {
+      "height": 0.7,
+      "width": 0.7
+    },
+    "position": {
+      "top": -0.8,
+      "left": 1.5
+    },
+    "targetPosition": {
+      "top": "max",
+      "left": "remain"
+    },
+    "enemyType": "enemyC",
+    "HP": 3,
+    "speed": 0.015,
+    "status": "healthy"
+  }
+}

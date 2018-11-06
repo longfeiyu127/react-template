@@ -8,6 +8,10 @@ import store from '../service/store';
   function recalc() {
     const { clientWidth, clientHeight } = docEl;
     if (!clientWidth) return;
+    // eslint-disable-next-line
+    win.clientWidth = clientWidth;
+    // eslint-disable-next-line
+    win.clientHeight = clientHeight;
     if (getState().screen.clientHeight !== clientHeight) {
       dispatch.screen.setClientHeight(clientHeight);
     }

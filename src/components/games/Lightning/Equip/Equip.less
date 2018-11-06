@@ -1,0 +1,53 @@
+@import '../../../../assets/styles/theme.less';
+@font-face {font-family: "game";
+  src: url('../../../../assets/font/game.ttf') format('truetype');
+}
+.g-lig-equip{
+  position: absolute;
+  left: 0.1rem;
+  bottom: 0.1rem;
+  width: 0.7rem;
+  height: 1.13rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  .content{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    >.icon{
+      width: 0.45rem;
+      height: 0.45rem;
+    }
+    >.life {
+      background: url('../../../../assets/images/games/lightning/equip/life_count.png') no-repeat center/100% 100%;
+    }
+    >.bomb{
+      background: url('../../../../assets/images/games/lightning/equip/bomb_count.png') no-repeat center/100% 100%;
+    }
+    >.count{
+      color: #ff3314;
+      font-size: 0.3rem;
+      font-family: game;
+      .count();
+      font-weight: 800;
+    }
+  }
+  // >.player{
+  //   background: url('../../../../../assets/images/games/lightning/bullet/palyerBullet.png') no-repeat center/100% 100%;
+  //   animation: flicker 100ms infinite;
+  // }
+  // >.power{
+  //   background: url('../../../../../assets/images/games/lightning/materials/power_up_01.png') no-repeat center/100% 100%;
+  // }
+
+  // @keyframes flicker {
+  //   0%, 100% {
+  //     opacity: 0;
+  //   }
+  //   50% {
+  //     opacity: 1;
+  //   }
+  // }
+}

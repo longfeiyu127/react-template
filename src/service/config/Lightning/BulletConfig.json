@@ -1,0 +1,19 @@
+{
+  "player": {
+    "size": {
+      "height": 0.14,
+      "width": 0.14
+    },
+    "position": {
+      "top": -0.45,
+      "left": 2
+    },
+    "targetPosition": {
+      "top": "max",
+      "left": "remain"
+    },
+    "bulletTpey": "player",
+    "HP": 1,
+    "speed": 0.02
+  }
+}

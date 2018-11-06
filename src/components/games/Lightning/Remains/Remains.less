@@ -1,0 +1,52 @@
+.g-lig-remains{
+  position: absolute;
+  >.remains-main {
+    height: 100%;
+    width: 100%;
+    animation: switchover 1500ms linear;
+  }
+  // >.player{
+  //   background: url('../../../../../assets/images/games/lightning/bullet/palyerBullet.png') no-repeat center/100% 100%;
+  //   animation: flicker 100ms infinite;
+  // }
+  // >.enemyA0{
+  //   background: url('../../../../../assets/images/games/lightning/enemy/enemy_typeA.png') no-repeat center/100% 100%;
+  // }
+  // >.enemyA1{
+  //   background: url('../../../../../assets/images/games/lightning/enemy/enemy_typeA1.png') no-repeat center/100% 100%;
+  // }
+  // >.enemyA2{
+  //   background: url('../../../../../assets/images/games/lightning/enemy/enemy_typeA2.png') no-repeat center/100% 100%;
+  // }
+  // >.enemyC{
+  //   background: url('../../../../../assets/images/games/lightning/enemy/enemy_typeC.png') no-repeat center/100% 100%;
+  // }
+
+  // >.explosion{
+  //   background: url('../../../../../assets/images/games/lightning/explosion/disp_02.png') no-repeat center/100% 100%;
+  // }
+  @keyframes switchover {
+    0% {
+      background: url('../../../../assets/images/games/lightning/explosion/disp_01.png') no-repeat center/100% 100%;
+    }
+    20% {
+      background: url('../../../../assets/images/games/lightning/explosion/disp_02.png') no-repeat center/100% 100%;
+    }
+    40% {
+      background: url('../../../../assets/images/games/lightning/explosion/disp_03.png') no-repeat center/100% 100%;
+    }
+    60% {
+      background: url('../../../../assets/images/games/lightning/explosion/disp_04.png') no-repeat center/100% 100%;
+    }
+    80% {
+      background: url('../../../../assets/images/games/lightning/explosion/disp_05.png') no-repeat center/100% 100%;
+    }
+    95% {
+      background: url('../../../../assets/images/games/lightning/explosion/disp_06.png') no-repeat center/100% 100%;
+    }
+    100% {
+      background: url('../../../../assets/images/games/lightning/explosion/disp_06.png') no-repeat center/100% 100%;
+      opacity: 0.5;
+    }
+  }
+}

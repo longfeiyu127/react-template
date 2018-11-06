@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import Tictactoe from './Tictactoe/Tictactoe';
 import Fivechess from './Fivechess/Fivechess';
-// import Lightning from './lightning'
+import Lightning from './Lightning/Lightning';
 import './games.less';
 
 // class Games extends React.Component {
@@ -28,7 +28,7 @@ const Games = props => {
     <div className="g-games">
       <Route exact path={`${match.url}/tictactoe`} component={Tictactoe} />
       <Route exact path={`${match.url}/fivechess`} component={Fivechess} />
-      {/* <Route exact path={`${this.props.match.url}/lightning`} component={Lightning}/> */}
+      <Route exact path={`${match.url}/lightning`} component={Lightning} />
       {/* <Route exact path={`${this.props.match.url}/games`} component={Games}/>
       <Route exact path={`${this.props.match.url}/ranks`} component={Ranks}/>
       <Route exact path={`${this.props.match.url}/developer`} component={Developer}/> */}
