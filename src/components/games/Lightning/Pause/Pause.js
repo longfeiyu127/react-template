@@ -4,7 +4,7 @@ import React from 'react';
 import './Pause.less';
 
 function Pause(props) {
-  console.log(props);
+  // console.log(props);
   // eslint-disable-next-line
   const { EngineStatus, start, pause } = props;
   return (

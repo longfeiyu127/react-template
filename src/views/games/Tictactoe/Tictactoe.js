@@ -1,9 +1,9 @@
 import React from 'react';
 import { connect } from 'react-redux';
 // import PropTypes from 'prop-types';
-import TictactoeBoard from '../../../components/games/tictactoe/Board/Board';
-import TictactoeScoreboard from '../../../components/games/tictactoe/Scoreboard/Scoreboard';
-import TictactoeVictory from '../../../components/games/tictactoe/Victory/Victory';
+import TictactoeBoard from '../../../components/games/Tictactoe/Board/Board';
+import TictactoeScoreboard from '../../../components/games/Tictactoe/Scoreboard/Scoreboard';
+import TictactoeVictory from '../../../components/games/Tictactoe/Victory/Victory';
 import Firework from '../../../components/common/Firework/Firework';
 import './Tictactoe.less';
 

@@ -34,6 +34,10 @@ import PlayerConfig from '../../config/Lightning/PlayerConfig';
 //   }
 // };
 
+function deepCopy(params) {
+  return JSON.parse(JSON.stringify(params));
+}
+
 // 移动敌机
 function EnemyPosition(enemy) {
   // eslint-disable-next-line
@@ -46,9 +50,10 @@ function EnemyPosition(enemy) {
 }
 
 // 创建敌机
-function createEnemy(EnemyArr) {
+function createEnemy(state) {
   // eslint-disable-next-line
   // let EnemyArr = JSON.parse(JSON.stringify(this.state.EnemyArr));
+  const { EnemyArr } = state;
   const newEnemy = [];
   const EnemyWeightA = Math.random() * 100;
   if (EnemyWeightA < 10) {
@@ -66,15 +71,15 @@ function createEnemy(EnemyArr) {
 }
 
 // 创建子弹
-function createBullet(BulletArr) {
+function createBullet(state) {
   // eslint-disable-next-line
-  // const BulletArr = JSON.parse(JSON.stringify(this.state.BulletArr));
+  const { BulletArr, playerTop, playerLeft } = state;
   const position = {
     // eslint-disable-next-line
-    top: this.state.playerTop,
+    top: playerTop,
     left:
       // eslint-disable-next-line
-      this.state.playerLeft +
+      playerLeft +
       PlayerConfig.size.width * 0.5 -
       BulletConfig.player.size.width * 0.5
   };
@@ -149,14 +154,15 @@ const Lightning = {
       };
     },
     // 创建引擎
-    creator() {
+    creator(state) {
       this.creatorTimer = setInterval(() => {
-        const EnemyArr = createEnemy();
-        const BulletArr = createBullet();
-        this.setState({
+        const EnemyArr = createEnemy(deepCopy(state));
+        const BulletArr = createBullet(deepCopy(state));
+        return {
+          ...state,
           EnemyArr,
           BulletArr
-        });
+        };
       }, 300);
     },
 
