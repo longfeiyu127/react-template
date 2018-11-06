@@ -67,22 +67,15 @@ class Engine extends React.Component {
   }
 
   componentWillMount() {
-    // this.setState({
-    //   EngineStatus: true
-    // });
-    // this.start();
+    this.start();
     window.onblur = () => {
       this.pause();
     };
-    // window.onfocus = () => {
-    //   this.start();
-    // };
   }
 
   componentWillUnmount() {
     this.pause();
     window.onblur = null;
-    // window.onfocus = null;
   }
 
   start() {
