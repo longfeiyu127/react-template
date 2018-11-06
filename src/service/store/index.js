@@ -7,7 +7,7 @@ import models from './modules';
 function createStore() {
   const loading = createLoadingPlugin();
   const persistPlugin = createRematchPersist({
-    whitelist: ['test', 'Tictactoe'],
+    whitelist: ['test', 'Tictactoe', 'Fivechess'],
     // throttle: 50,
     version: 1
   });
@@ -19,7 +19,6 @@ function createStore() {
       delete initialState[key];
     }
   }
-  // console.log(initialState);
   const store = init({
     models,
     redux: {

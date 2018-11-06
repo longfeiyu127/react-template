@@ -32,6 +32,7 @@ module.exports = {
     // "react/prefer-stateless-function": 0,
     "no-plusplus": 0,
     "no-console": 0,
+    "no-constant-condition": ["error", { "checkLoops": false }],
     "class-methods-use-this": 0,
     "no-restricted-syntax": 0,
     "react/forbid-prop-types": 0,

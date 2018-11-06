@@ -1,0 +1,48 @@
+@import '../../../../assets/styles/theme.less';
+.g-fic-header{
+  height: 1.8rem;
+  background: url('../../../../assets/images/games/fivechess/header.jpg') no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  .maximize{
+    position: absolute;
+    top: .2rem;
+    right: .3rem;
+    z-index: @modal-zindex;
+  }
+  .player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0.388rem;
+    width: 0.388rem;
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.2rem;
+    .spark{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background: url('../../../../assets/images/games/fivechess/spark.png') no-repeat;
+      background-size: 100% 100%;
+      animation: rotate 1s linear infinite;
+    }
+    .piece{
+      height: .28rem;
+      width: .28rem;
+    }
+    .pieceBlack{
+      background: url('../../../../assets/images/games/fivechess/playerBlack.png') no-repeat;
+      background-size: 100% 100%;
+    }
+    .pieceWhite{
+      background: url('../../../../assets/images/games/fivechess/playerWhite.png') no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+  @keyframes rotate {
+    to {
+      transform: rotate(360deg)
+    }
+  }
+}
