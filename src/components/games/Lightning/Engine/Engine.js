@@ -70,17 +70,17 @@ class Engine extends React.Component {
     console.log(EngineStatus);
     if (!EngineStatus) {
       setEngineStatus(true);
-      this.keyControll(true);
-      this.creatorTimer = setInterval(() => {
-        creator();
-      }, 300);
-      this.mainEngineTimer = setInterval(() => {
-        mainEngine({ clientHeight, clientWidth });
-      }, Enginespeed);
-      window.onbeforeunload = () => {
-        this.pause();
-        window.onbeforeunload = null;
-      };
+      // this.keyControll(true);
+      // this.creatorTimer = setInterval(() => {
+      //   creator();
+      // }, 300);
+      // this.mainEngineTimer = setInterval(() => {
+      //   mainEngine({ clientHeight, clientWidth });
+      // }, Enginespeed);
+      // window.onbeforeunload = () => {
+      //   this.pause();
+      //   window.onbeforeunload = null;
+      // };
     }
   }
 

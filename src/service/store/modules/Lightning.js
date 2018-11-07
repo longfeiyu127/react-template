@@ -90,7 +90,7 @@ function createBullet(state) {
 }
 
 // 处理敌机移动
-function EnemyControll(EnemyArr) {
+function EnemyControll(EnemyArr, screen) {
   const EnemyArrRes = EnemyArr.map(item => {
     // console.log(config.enemyType[item.enemyType])
     // console.log(item.speed);
@@ -100,7 +100,7 @@ function EnemyControll(EnemyArr) {
   });
   return EnemyArrRes.filter(
     item =>
-      item.position.top <= (window.clientHeight / window.clientWidth) * 3.75
+      item.position.top <= (screen.clientHeight / screen.clientWidth) * 3.75
   );
 }
 
@@ -188,11 +188,11 @@ const Lightning = {
       };
     },
     // 移动位置/检查碰撞
-    mainEngine(state) {
+    mainEngine(state, screen) {
       const { EngineStatus } = state;
       if (EngineStatus) {
         // 控制移动
-        const EnemyArr = EnemyControll(deepCopy(state.EnemyArr));
+        const EnemyArr = EnemyControll(deepCopy(state.EnemyArr), screen);
         const BulletArr = BulletControll(deepCopy(state.BulletArr));
         // 检查碰撞
         const { newRemainsArr, newEnemyArr, newBulletArr } = crashEngine(
