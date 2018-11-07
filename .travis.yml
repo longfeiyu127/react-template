@@ -2,9 +2,10 @@ language: node_js
 node_js:
 - '8'
 install:
+- npm install -g codecov
 - npm install
 script:
 - yarn run test
 - yarn run build
-# after_script:
-# - yarn run codecov
+after_script:
+- yarn run codecov

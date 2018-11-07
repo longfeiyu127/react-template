@@ -74,7 +74,8 @@
     "test": "node scripts/test.js --watchAll",
     "format": "onchange 'src/**/*.js' 'src/**/*.jsx' 'src/**/*.scss' -- prettier --write {{changed}}",
     "precommit-msg": "echo 'Pre-commit checks.........' && exit 0",
-    "lint": "eslint --ext .js --ext .jsx src"
+    "lint": "eslint --ext .js --ext .jsx src",
+    "codecov": "codecov"
   },
   "pre-commit": [
     "precommit-msg",
@@ -90,9 +91,11 @@
     "not op_mini all"
   ],
   "jest": {
+    "collectCoverage": true,
     "collectCoverageFrom": [
       "src/**/*.{js,jsx}"
     ],
+    "coverageDirectory": "./coverage/",
     "resolver": "jest-pnp-resolver",
     "setupFiles": [
       "react-app-polyfill/jsdom"
@@ -133,6 +136,7 @@
   "devDependencies": {
     "babel-eslint": "^9.0.0",
     "babel-plugin-import": "^1.10.0",
+    "codecov": "^3.1.0",
     "compression-webpack-plugin": "^2.0.0",
     "cross-env": "^5.2.0",
     "eslint": "^5.6.0",
