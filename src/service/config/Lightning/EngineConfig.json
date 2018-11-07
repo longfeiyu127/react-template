@@ -1,3 +1,27 @@
 {
-  "Enginespeed": 100
+  "step": 0.05,
+  "bulletTpey": {
+    "player": {
+      "size": {},
+      "position": {}
+    }
+  },
+  "enemyType": {
+    "enemyA0": {
+      "size": {
+        "height": 0,
+        "width": 2
+      },
+      "position": {
+        "top": 0,
+        "left": 2
+      },
+      "targetPosition": {
+        "top": 5,
+        "left": 2
+      },
+      "HP": "",
+      "speed": 0.01
+    }
+  }
 }

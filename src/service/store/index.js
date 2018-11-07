@@ -7,8 +7,8 @@ import models from './modules';
 function createStore() {
   const loading = createLoadingPlugin();
   const persistPlugin = createRematchPersist({
-    whitelist: ['test', 'Tictactoe', 'Fivechess'],
-    // throttle: 50,
+    whitelist: ['test', 'Tictactoe', 'Fivechess', 'Lightning'],
+    throttle: 15,
     version: 1
   });
   const initialState = JSON.parse(localStorage.getItem('persist:root') || '{}');
