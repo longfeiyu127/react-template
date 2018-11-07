@@ -100,7 +100,8 @@ function EnemyControll(EnemyArr, screen) {
   });
   return EnemyArrRes.filter(
     item =>
-      item.position.top <= (screen.clientHeight / screen.clientWidth) * 3.75
+      // item.position.top <= (screen.clientHeight / screen.clientWidth) * 3.75
+      item.position.top <= screen.clientHeight / 100
   );
 }
 
@@ -220,7 +221,7 @@ const Lightning = {
     },
     // 控制主机移动
     ControllPlayer(state, positionChange) {
-      // console.log(positionChange)
+      // console.log(positionChange);
       const { playerTop, playerLeft } = state;
       return {
         ...state,

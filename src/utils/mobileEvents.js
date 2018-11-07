@@ -82,40 +82,24 @@ export default function swipeDetect(el, callback = () => {}) {
 }
 
 export function moveDetect(el, callback = () => {}) {
-  let moveState = true;
   let startX;
   let startY;
-  // let moveX = 0;
-  // let moveY = 0;
   let distX;
   let distY;
-  // // required min distance traveled to be considered swipe
-  // const threshold = 75;
-  // // maximum distance allowed at the same time in perpendicular direction
-  // const restraint = 50;
-  // // maximum time allowed to travel that distance
-  // const allowedTime = 300;
-  // let elapsedTime;
-  // let startTime;
+
   function touchmove(e) {
-    if (moveState) {
-      moveState = false;
-      const touchMvoeObj = e.changedTouches[0];
-      console.log('startX', startX);
-      // console.log('moveX', moveX);
-      distX = touchMvoeObj.pageX - startX;
-      // moveX = distX;
-      distY = touchMvoeObj.pageY - startY;
-      // moveY = distY;
-      console.log(distX / 100, distY / 100);
-      if (callback) {
-        callback({ left: distX / 200, top: distY / 200 });
-      }
-      // prevent scrolling when inside DIV
-      moveState = true;
-      e.preventDefault();
+    const touchMvoeObj = e.changedTouches[0];
+    // console.log('moveX', moveX);
+    distX = touchMvoeObj.pageX - startX;
+    startX = touchMvoeObj.pageX;
+    distY = touchMvoeObj.pageY - startY;
+    startY = touchMvoeObj.pageY;
+    if (callback) {
+      callback({ left: distX / 100, top: distY / 100 });
     }
+    e.preventDefault();
   }
+
   function touchend(e) {
     el.removeEventListener('touchmove', touchmove);
     el.removeEventListener('touchend', touchend);
