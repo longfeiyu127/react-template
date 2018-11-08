@@ -1,6 +1,6 @@
 # React-template
 
-react init
+[![Build Status](https://travis-ci.org/longfeiyu127/react-template.svg?branch=master)](https://travis-ci.org/longfeiyu127/react-template)
 
 &nbsp;
 
