@@ -1,6 +1,7 @@
 # React-template
 
 [![Build Status](https://travis-ci.org/longfeiyu127/react-template.svg?branch=master)](https://travis-ci.org/longfeiyu127/react-template)
+[![codecov](https://codecov.io/gh/longfeiyu127/react-template/branch/master/graph/badge.svg)](https://codecov.io/gh/longfeiyu127/react-template)
 
 &nbsp;
 
