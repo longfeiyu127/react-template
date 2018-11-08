@@ -1,6 +1,7 @@
 # React-template
 
-react init
+[![Build Status](https://travis-ci.org/longfeiyu127/react-template.svg?branch=master)](https://travis-ci.org/longfeiyu127/react-template)
+[![codecov](https://codecov.io/gh/longfeiyu127/react-template/branch/master/graph/badge.svg)](https://codecov.io/gh/longfeiyu127/react-template)
 [![node](https://img.shields.io/badge/node-%20%3E%3D%206.10-brightgreen.svg)](https://nodejs.org)
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
