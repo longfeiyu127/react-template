@@ -1,7 +1,7 @@
 {
-  "main.css": "/react-template/static/css/main.1c6e35d4.chunk.css",
-  "main.js": "/react-template/static/js/main.c37c8d18.chunk.js",
-  "main.js.map": "/react-template/static/js/main.c37c8d18.chunk.js.map",
+  "main.css": "/react-template/static/css/main.b987c063.chunk.css",
+  "main.js": "/react-template/static/js/main.6b1498b4.chunk.js",
+  "main.js.map": "/react-template/static/js/main.6b1498b4.chunk.js.map",
   "static/css/1.34a4eb5e.chunk.css": "/react-template/static/css/1.34a4eb5e.chunk.css",
   "static/js/1.b7232170.chunk.js": "/react-template/static/js/1.b7232170.chunk.js",
   "static/js/1.b7232170.chunk.js.map": "/react-template/static/js/1.b7232170.chunk.js.map",
@@ -72,13 +72,13 @@
   "static/media/Tictactoe.less": "/react-template/static/media/gameBg.2b79e69f.jpg",
   "static/media/tictactoe_launcher.png": "/react-template/static/media/tictactoe_launcher.7f91a153.png",
   "static/media/index.less": "/react-template/static/media/iconfont.f430f20f.ttf",
-  "static/css/main.1c6e35d4.chunk.css.map": "/react-template/static/css/main.1c6e35d4.chunk.css.map",
   "static/css/1.34a4eb5e.chunk.css.map": "/react-template/static/css/1.34a4eb5e.chunk.css.map",
+  "static/css/main.b987c063.chunk.css.map": "/react-template/static/css/main.b987c063.chunk.css.map",
   "index.html": "/react-template/index.html",
   "static/css/1.34a4eb5e.chunk.css.gz": "/react-template/static/css/1.34a4eb5e.chunk.css.gz",
-  "static/css/main.1c6e35d4.chunk.css.gz": "/react-template/static/css/main.1c6e35d4.chunk.css.gz",
-  "static/js/main.c37c8d18.chunk.js.gz": "/react-template/static/js/main.c37c8d18.chunk.js.gz",
+  "static/css/main.b987c063.chunk.css.gz": "/react-template/static/css/main.b987c063.chunk.css.gz",
+  "static/js/main.6b1498b4.chunk.js.gz": "/react-template/static/js/main.6b1498b4.chunk.js.gz",
   "static/js/1.b7232170.chunk.js.gz": "/react-template/static/js/1.b7232170.chunk.js.gz",
-  "precache-manifest.4523aef82ec07e2d5e1d465a9e04e9a6.js": "/react-template/precache-manifest.4523aef82ec07e2d5e1d465a9e04e9a6.js",
+  "precache-manifest.c121c3a2e38fdfa55832cb13ea49798a.js": "/react-template/precache-manifest.c121c3a2e38fdfa55832cb13ea49798a.js",
   "service-worker.js": "/react-template/service-worker.js"
 }
