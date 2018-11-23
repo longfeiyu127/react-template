@@ -24,7 +24,7 @@ presentation:
 <!-- slide -->
 ### 数据持久化方案
 
-1. 犹豫官方推出的redux仅仅是一个方案，reducer和Saga都采用纯函数处理，需要嵌套switch语句，实际项目中使用起来很麻烦，所以redux第三方插件很多，这里采用@rematch/core,数据同步缓存@rematch/persist
+1. 犹豫官方推出的redux仅仅是一个方案，reducer和Saga都采用纯函数处理，需要嵌套switch语句，从今年出来的React Hooks来看，react打算让开发者在纯函数的道路上走到黑了，实际项目中使用起来很麻烦，所以redux第三方插件很多，这里采用@rematch/core,数据同步缓存@rematch/persist
 
 <!-- slide -->
 ### PWA的尝试
@@ -49,9 +49,9 @@ presentation:
 ### 代码管理方案
 1. eslint+prettier
   * [eslint](https://github.com/eslint/eslint)就不多说了，这里采用目前比较流行同也是也是比较严格的airbnb风格，关闭了一些令人发指的检查
-  prettier，检查并自动格式化代码
+  [prettier](https://github.com/prettier/prettier)检查并自动格式化代码
 2. propTypes
-  * 使用 [propTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) 属性进行传入 prop 的校验。可以校验 prop 的类型和是否必需，非必需的 prop 还必需填写 defaultProps 默认值。以无状态组件 [Button](https://github.com/devrsi0n/React-2048-game/blob/e6812e8b89bb38109387e7f6495fcd5d70c11f26/src/components/Button/index.js) 的部分代码示例：
+  * 使用 [propTypes](https://reactjs.org/docs/typechecking-with-proptypes.html) 属性进行传入 prop 的校验。可以校验 prop 的类型和是否必需，非必需的 prop 还必需填写 defaultProps 默认值。
 
 <!-- slide -->
 ### PropTypes类型判定
