@@ -39,7 +39,7 @@ const App = () => (
       <img src={logo} className="App-logo" alt="logo" />
       <img src={logo} className="test" alt="logo" />
       <p>
-        Edit
+        Edit test
         <code>src/App.js</code>
         and save to reload.
       </p>
