@@ -4,16 +4,16 @@ self.__precacheManifest = [
     "url": "/react-template/static/media/enemy_type6.4d6f5bb2.png"
   },
   {
-    "revision": "dbd163209ed7e082dd0376df9648a856",
-    "url": "/react-template/static/js/1.11f7de80.chunk.js.gz"
+    "revision": "df7ed08b0f87a1bae820a2a907216fa0",
+    "url": "/react-template/static/js/1.b7232170.chunk.js.gz"
   },
   {
-    "revision": "49ead96cc0ec80aadc41fd28479ca6bf",
-    "url": "/react-template/static/js/main.93d569af.chunk.js.gz"
+    "revision": "a68734db94cc5da97d35ee580ea29ab7",
+    "url": "/react-template/static/js/main.c37c8d18.chunk.js.gz"
   },
   {
-    "revision": "b6881b989661e31b42358a6858eb3373",
-    "url": "/react-template/static/media/TheHistoriaDemo.b6881b98.ttf"
+    "revision": "f430f20f52be768d1cc2abc67a7ee492",
+    "url": "/react-template/static/media/iconfont.f430f20f.ttf"
   },
   {
     "revision": "939e6092aa80aff5220a",
@@ -164,8 +164,8 @@ self.__precacheManifest = [
     "url": "/react-template/static/media/enemy_type5.c94f329a.png"
   },
   {
-    "revision": "93d569af47970321bbd0",
-    "url": "/react-template/static/js/main.93d569af.chunk.js"
+    "revision": "c37c8d18c8bc8b953756",
+    "url": "/react-template/static/js/main.c37c8d18.chunk.js"
   },
   {
     "revision": "9164c81362aa4e79c256df4d5d7b0e8c",
@@ -304,31 +304,31 @@ self.__precacheManifest = [
     "url": "/react-template/static/media/game.ece29f97.ttf"
   },
   {
-    "revision": "f430f20f52be768d1cc2abc67a7ee492",
-    "url": "/react-template/static/media/iconfont.f430f20f.ttf"
+    "revision": "b6881b989661e31b42358a6858eb3373",
+    "url": "/react-template/static/media/TheHistoriaDemo.b6881b98.ttf"
   },
   {
-    "revision": "11f7de80e35b44dd56fc",
-    "url": "/react-template/static/js/1.11f7de80.chunk.js"
+    "revision": "b7232170ac48ee8c5ba8",
+    "url": "/react-template/static/js/1.b7232170.chunk.js"
   },
   {
-    "revision": "0f486afbe5ae26f1f1df2c96e0324245",
-    "url": "/react-template/static/css/main.2e7e04fc.chunk.css.gz"
+    "revision": "531fe0857fafae9681f242346d190bb3",
+    "url": "/react-template/static/css/main.1c6e35d4.chunk.css.gz"
   },
   {
-    "revision": "93d569af47970321bbd0",
-    "url": "/react-template/static/css/main.2e7e04fc.chunk.css"
+    "revision": "c37c8d18c8bc8b953756",
+    "url": "/react-template/static/css/main.1c6e35d4.chunk.css"
   },
   {
     "revision": "ee73585a9eb1d22289872837336e9dd3",
     "url": "/react-template/static/css/1.34a4eb5e.chunk.css.gz"
   },
   {
-    "revision": "11f7de80e35b44dd56fc",
+    "revision": "b7232170ac48ee8c5ba8",
     "url": "/react-template/static/css/1.34a4eb5e.chunk.css"
   },
   {
-    "revision": "fc5dbd2fbd606278337ae0fadf9d1c4d",
+    "revision": "ed761f8d8b88257c7536c30afba19d27",
     "url": "/react-template/index.html"
   }
 ];
