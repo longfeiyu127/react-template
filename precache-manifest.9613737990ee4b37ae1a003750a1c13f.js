@@ -8,12 +8,12 @@ self.__precacheManifest = [
     "url": "/react-template/static/js/1.390f71d5.chunk.js.gz"
   },
   {
-    "revision": "2b357be8a90bc5c6d13281ddeb0b299a",
-    "url": "/react-template/static/js/main.29abeb34.chunk.js.gz"
+    "revision": "148d9408856bf8284f788318e5b2bb39",
+    "url": "/react-template/static/js/main.a214c199.chunk.js.gz"
   },
   {
-    "revision": "f430f20f52be768d1cc2abc67a7ee492",
-    "url": "/react-template/static/media/iconfont.f430f20f.ttf"
+    "revision": "b6881b989661e31b42358a6858eb3373",
+    "url": "/react-template/static/media/TheHistoriaDemo.b6881b98.ttf"
   },
   {
     "revision": "939e6092aa80aff5220a",
@@ -164,8 +164,8 @@ self.__precacheManifest = [
     "url": "/react-template/static/media/enemy_type5.c94f329a.png"
   },
   {
-    "revision": "29abeb342c23aa4d055a",
-    "url": "/react-template/static/js/main.29abeb34.chunk.js"
+    "revision": "a214c199e945eb35c874",
+    "url": "/react-template/static/js/main.a214c199.chunk.js"
   },
   {
     "revision": "9164c81362aa4e79c256df4d5d7b0e8c",
@@ -304,20 +304,20 @@ self.__precacheManifest = [
     "url": "/react-template/static/media/game.ece29f97.ttf"
   },
   {
-    "revision": "b6881b989661e31b42358a6858eb3373",
-    "url": "/react-template/static/media/TheHistoriaDemo.b6881b98.ttf"
+    "revision": "f430f20f52be768d1cc2abc67a7ee492",
+    "url": "/react-template/static/media/iconfont.f430f20f.ttf"
   },
   {
     "revision": "390f71d5e69011e1b585",
     "url": "/react-template/static/js/1.390f71d5.chunk.js"
   },
   {
-    "revision": "f712be484639fe10eea83ea1f06a5ad6",
-    "url": "/react-template/static/css/main.5a82bbe0.chunk.css.gz"
+    "revision": "8a3d7ab04387530001bfab297c771f26",
+    "url": "/react-template/static/css/main.30503cb5.chunk.css.gz"
   },
   {
-    "revision": "29abeb342c23aa4d055a",
-    "url": "/react-template/static/css/main.5a82bbe0.chunk.css"
+    "revision": "a214c199e945eb35c874",
+    "url": "/react-template/static/css/main.30503cb5.chunk.css"
   },
   {
     "revision": "1659da79ea46de54822a9f6ffdb96a66",
@@ -328,7 +328,7 @@ self.__precacheManifest = [
     "url": "/react-template/static/css/1.8c9898dd.chunk.css"
   },
   {
-    "revision": "4d842b28676cb3293cb432daad21484e",
+    "revision": "f5d7e94f332f3e18a49e00d32f4e292e",
     "url": "/react-template/index.html"
   }
 ];
