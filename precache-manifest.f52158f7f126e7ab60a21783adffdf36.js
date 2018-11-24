@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/react-template/static/media/enemy_type6.4d6f5bb2.png"
   },
   {
-    "revision": "df7ed08b0f87a1bae820a2a907216fa0",
-    "url": "/react-template/static/js/1.b7232170.chunk.js.gz"
+    "revision": "2fe1eafea3f03585923eb1b9d6c2f421",
+    "url": "/react-template/static/js/1.390f71d5.chunk.js.gz"
   },
   {
-    "revision": "99c83774566ad388896039be3d3f9c05",
-    "url": "/react-template/static/js/main.6b1498b4.chunk.js.gz"
+    "revision": "21d725e04a3c25ede1e878dea35a383c",
+    "url": "/react-template/static/js/main.4e6e7784.chunk.js.gz"
   },
   {
     "revision": "f430f20f52be768d1cc2abc67a7ee492",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/react-template/static/js/runtime~main.939e6092.js"
   },
   {
-    "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
-    "url": "/react-template/static/media/logo.5d5d9eef.svg"
+    "revision": "ee7cd8ed2dcec943251eb2763684fc6f",
+    "url": "/react-template/static/media/logo.ee7cd8ed.svg"
   },
   {
     "revision": "87fae66516c28cfbc5e5e3b61acd544c",
@@ -164,8 +164,8 @@ self.__precacheManifest = [
     "url": "/react-template/static/media/enemy_type5.c94f329a.png"
   },
   {
-    "revision": "6b1498b4775e41c07160",
-    "url": "/react-template/static/js/main.6b1498b4.chunk.js"
+    "revision": "4e6e77843c720c6c24e6",
+    "url": "/react-template/static/js/main.4e6e7784.chunk.js"
   },
   {
     "revision": "9164c81362aa4e79c256df4d5d7b0e8c",
@@ -308,27 +308,27 @@ self.__precacheManifest = [
     "url": "/react-template/static/media/TheHistoriaDemo.b6881b98.ttf"
   },
   {
-    "revision": "b7232170ac48ee8c5ba8",
-    "url": "/react-template/static/js/1.b7232170.chunk.js"
+    "revision": "390f71d5e69011e1b585",
+    "url": "/react-template/static/js/1.390f71d5.chunk.js"
   },
   {
-    "revision": "066bd1b5773ecb100313adf39ad884c8",
-    "url": "/react-template/static/css/main.b987c063.chunk.css.gz"
+    "revision": "6092197e49f141694380c3962682cfdf",
+    "url": "/react-template/static/css/main.70ac37fa.chunk.css.gz"
   },
   {
-    "revision": "6b1498b4775e41c07160",
-    "url": "/react-template/static/css/main.b987c063.chunk.css"
+    "revision": "4e6e77843c720c6c24e6",
+    "url": "/react-template/static/css/main.70ac37fa.chunk.css"
   },
   {
-    "revision": "ee73585a9eb1d22289872837336e9dd3",
-    "url": "/react-template/static/css/1.34a4eb5e.chunk.css.gz"
+    "revision": "1659da79ea46de54822a9f6ffdb96a66",
+    "url": "/react-template/static/css/1.8c9898dd.chunk.css.gz"
   },
   {
-    "revision": "b7232170ac48ee8c5ba8",
-    "url": "/react-template/static/css/1.34a4eb5e.chunk.css"
+    "revision": "390f71d5e69011e1b585",
+    "url": "/react-template/static/css/1.8c9898dd.chunk.css"
   },
   {
-    "revision": "ec4e3d55b41914ddc9ac5c3112c3a395",
+    "revision": "03aa45f1845f91b4f48cda35628707d8",
     "url": "/react-template/index.html"
   }
 ];
