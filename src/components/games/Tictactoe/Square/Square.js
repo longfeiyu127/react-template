@@ -2,7 +2,7 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 import './Square.less';
 
-function TictactoeSquare(props) {
+export function TictactoeSquare(props) {
   // console.log(props)
   // eslint-disable-next-line
   const { onClick, heightLine, value } = props;

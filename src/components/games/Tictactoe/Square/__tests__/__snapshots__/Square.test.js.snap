@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TictactoeSquare /> component render 1`] = `
+<div
+  className="g-tic-square"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "red",
+    }
+  }
+>
+  <div
+    className="squareItem squareItemO"
+  />
+</div>
+`;
+
+exports[`<TictactoeSquare /> component render 2`] = `
+<div
+  className="g-tic-square"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "",
+    }
+  }
+>
+  <div
+    className="squareItem "
+  />
+</div>
+`;
+
+exports[`<TictactoeSquare /> component render 3`] = `
+<div
+  className="g-tic-square"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "",
+    }
+  }
+>
+  <div
+    className="squareItem squareItemX"
+  />
+</div>
+`;

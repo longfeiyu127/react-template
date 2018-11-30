@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import './victory.less';
 
-function TictactoeVictory(props) {
+export function TictactoeVictory(props) {
   /* eslint-disable */
   const { xIsNext, reset } = props;
   /* eslint-enable */

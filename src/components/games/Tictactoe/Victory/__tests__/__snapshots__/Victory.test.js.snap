@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TictactoeVictory /> component render 1`] = `
+<div
+  className="g-tic-victory"
+>
+  <p
+    className="winner"
+  >
+    playerB
+     Win
+  </p>
+  <p
+    className="again"
+    onClick={[Function]}
+  >
+    Again
+  </p>
+</div>
+`;
+
+exports[`<TictactoeVictory /> component render 2`] = `
+<div
+  className="g-tic-victory"
+>
+  <p
+    className="winner"
+  >
+    playerA
+     Win
+  </p>
+  <p
+    className="again"
+    onClick={[Function]}
+  >
+    Again
+  </p>
+</div>
+`;

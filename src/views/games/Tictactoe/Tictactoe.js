@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 // import PropTypes from 'prop-types';
 import TictactoeBoard from '../../../components/games/Tictactoe/Board/Board';
 import TictactoeScoreboard from '../../../components/games/Tictactoe/Scoreboard/Scoreboard';
-import TictactoeVictory from '../../../components/games/Tictactoe/Victory/Victory';
+import Victory from '../../../components/games/Tictactoe/Victory/Victory';
 import Firework from '../../../components/common/Firework/Firework';
 import './Tictactoe.less';
 
@@ -34,7 +34,7 @@ function Tictactoe(props) {
         </div>
       </div>
       <Firework gameover={gameover}>
-        <TictactoeVictory />
+        <Victory />
       </Firework>
     </div>
   );
