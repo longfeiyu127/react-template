@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Bullet /> component render 1`] = `
+<div
+  className="g-lig-bullet"
+  style={
+    Object {
+      "height": "0.1rem",
+      "left": "0.1rem",
+      "top": "0.1rem",
+      "width": "0.1rem",
+    }
+  }
+>
+  <main
+    className="bullet-main player"
+  />
+</div>
+`;
+
+exports[`<Bullet /> component render 2`] = `
+<div
+  className="g-lig-bullet"
+  style={
+    Object {
+      "height": "0.1rem",
+      "left": "0.1rem",
+      "top": "0.1rem",
+      "width": "0.1rem",
+    }
+  }
+>
+  <main
+    className="bullet-main player"
+  />
+</div>
+`;

@@ -1,25 +1,20 @@
 import React from 'react';
 import { connect } from 'react-redux';
-// import Tictactoe from './tictactoe'
-// import Fivechess from './fivechess'
 import './Player.less';
 import PlayerConfig from '../../../../service/config/Lightning/PlayerConfig';
 import { moveDetect } from '../../../../utils/mobileEvents';
 
 const { size } = PlayerConfig;
 
-class Player extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      // playertop: '',
-      // left: '',
-    };
+export class Player extends React.Component {
+  constructor(...args) {
+    super(...args);
+    this.state = {};
   }
 
   componentDidMount() {
     if (this.Palyer) {
-      console.log(this.Palyer);
+      // console.log(this.Palyer);
       // eslint-disable-next-line
       const { ControllPlayer } = this.props;
       moveDetect(this.Palyer, ControllPlayer);

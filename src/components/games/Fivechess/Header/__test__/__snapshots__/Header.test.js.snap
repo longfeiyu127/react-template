@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> component render 1`] = `
+<header
+  className="g-fic-header"
+>
+  <div
+    className="maximize iconfont icon-minimize"
+    name="fullScreen"
+  />
+  <div
+    className="player"
+  >
+    <div
+      className="spark "
+    />
+    <div
+      className="piece pieceWhite"
+    />
+  </div>
+</header>
+`;
+
+exports[`<Header /> component render 2`] = `
+<header
+  className="g-fic-header"
+>
+  <div
+    className="maximize iconfont icon-minimize"
+    name="fullScreen"
+  />
+  <div
+    className="player"
+  >
+    <div
+      className="spark hide"
+    />
+    <div
+      className="piece pieceWhite"
+    />
+  </div>
+</header>
+`;
+
+exports[`<Header /> component render 3`] = `
+<header
+  className="g-fic-header"
+>
+  <div
+    className="maximize iconfont icon-minimize"
+    name="fullScreen"
+  />
+  <div
+    className="player"
+  >
+    <div
+      className="spark "
+    />
+    <div
+      className="piece pieceBlack"
+    />
+  </div>
+</header>
+`;
+
+exports[`<Header /> component render 4`] = `
+<header
+  className="g-fic-header"
+>
+  <div
+    className="maximize iconfont icon-minimize"
+    name="fullScreen"
+  />
+  <div
+    className="player"
+  >
+    <div
+      className="spark hide"
+    />
+    <div
+      className="piece pieceBlack"
+    />
+  </div>
+</header>
+`;

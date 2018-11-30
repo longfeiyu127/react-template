@@ -2,11 +2,11 @@ import React from 'react';
 // import PropTypes from 'prop-types';
 import './Pointer.less';
 
-function slantType(line) {
+export function slantType(line) {
   return line && line.every(item => item[0] === item[1]) ? 'slant0' : 'slant1';
 }
 
-function checkLineType(line) {
+export function checkLineType(line) {
   if (line) {
     const x = line[0][1];
     const y = line[0][0];

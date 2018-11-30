@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> component render 1`] = `
+<footer
+  className="g-fic-footer"
+/>
+`;
+
+exports[`<Footer /> component render 2`] = `
+<footer
+  className="g-fic-footer"
+/>
+`;

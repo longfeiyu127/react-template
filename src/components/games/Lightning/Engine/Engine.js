@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 // import Tictactoe from './tictactoe'
-import Player from '../Player/Player';
+import Players from '../Player/Player';
 import Bullet from '../Bullet/Bullet';
 import Enemy from '../Enemy/Enemy';
 // import Materials from '../Materials/Materials';
@@ -187,7 +187,7 @@ class Engine extends React.Component {
       <div className="g-lig-engine">
         <div className="background" />
         {/* 玩家 */}
-        <Player position={{ top: playerTop, left: playerLeft }} />
+        <Players position={{ top: playerTop, left: playerLeft }} />
         {/* 子弹 */}
         {BulletDom}
         {/* 敌机 */}

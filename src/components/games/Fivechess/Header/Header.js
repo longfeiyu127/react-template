@@ -13,6 +13,7 @@ export default function Header(props) {
           'iconfont',
           isFullscreen() ? 'icon-minimize' : 'icon-maximize'
         ].join(' ')}
+        name="fullScreen"
       />
       <div className="player">
         <div className={['spark', winner ? 'hide' : ''].join(' ')} />

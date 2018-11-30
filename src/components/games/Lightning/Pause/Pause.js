@@ -1,6 +1,4 @@
 import React from 'react';
-// import Tictactoe from './tictactoe'
-// import Fivechess from './fivechess'
 import './Pause.less';
 
 function Pause(props) {
@@ -10,11 +8,18 @@ function Pause(props) {
   return (
     <div className="g-lig-Pause">
       <div
+        onClick={pause}
+        // onClick={() => pause()}
         className="Pause-pause iconfont icon-pause"
-        onClick={() => pause()}
+        name="pause"
       />
       <div className={['Pause-main', !EngineStatus ? '' : 'hide'].join(' ')}>
-        <div className="start iconfont icon-start" onClick={() => start()} />
+        <div
+          className="start iconfont icon-start"
+          // onClick={() => start()}
+          onClick={start}
+          name="start"
+        />
       </div>
     </div>
   );

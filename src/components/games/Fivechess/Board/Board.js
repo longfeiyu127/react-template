@@ -3,19 +3,18 @@ import Square from '../Square/Square';
 // import Pointer from '../Pointer';
 import './Board.less';
 
-function inWinLine(winnerCoord, i, j) {
+export function inWinLine(winnerCoord, i, j) {
   const firstI = Math.min(winnerCoord[0][0], winnerCoord[4][0]);
   const LastI = Math.max(winnerCoord[0][0], winnerCoord[4][0]);
   if (i < firstI || i > LastI) {
-    return;
+    return false;
   }
   const firstJ = Math.min(winnerCoord[0][1], winnerCoord[4][1]);
   const LastJ = Math.max(winnerCoord[0][1], winnerCoord[4][1]);
   if (j < firstJ || j > LastJ) {
-    return;
+    return false;
   }
   const res = winnerCoord.find(item => item[0] === i && item[1] === j);
-  // eslint-disable-next-line
   return res;
 }
 

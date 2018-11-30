@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Firework /> component render 1`] = `
+<div
+  className="firework-box hide"
+>
+  <div
+    className="firework"
+  >
+    <div
+      className="before"
+    />
+    <div
+      className="after"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Firework /> component render 2`] = `
+<div
+  className="firework-box "
+>
+  <div
+    className="firework"
+  >
+    <div
+      className="before"
+    />
+    <div
+      className="after"
+    />
+  </div>
+</div>
+`;
+
+exports[`<Firework /> component render 3`] = `
+<div
+  className="firework-box hide"
+>
+  <div
+    className="firework"
+  >
+    <div
+      className="before"
+    />
+    <div
+      className="after"
+    />
+  </div>
+  <span>
+    test
+  </span>
+</div>
+`;

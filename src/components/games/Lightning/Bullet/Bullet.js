@@ -12,16 +12,6 @@ class Bullet extends React.Component {
   render() {
     // eslint-disable-next-line
     const { position, bulletTpey, size } = this.props;
-    // console.log(position);
-    // let bulletDom;
-    // switch (bulletTpey) {
-    //   case 'player':
-    //     bulletDom = <main className='player'></main>
-    //     break;
-
-    //   default:
-    //     break;
-    // }
     return (
       <div
         className="g-lig-bullet"

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Equip /> component render 1`] = `
+<div
+  className="g-lig-equip"
+>
+  <div
+    className="content"
+  >
+    <div
+      className="icon life"
+    />
+    <p
+      className="count"
+    >
+      1
+    </p>
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="icon bomb"
+    />
+    <p
+      className="count"
+    >
+      1
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Equip /> component render 2`] = `
+<div
+  className="g-lig-equip"
+>
+  <div
+    className="content"
+  >
+    <div
+      className="icon life"
+    />
+    <p
+      className="count"
+    >
+      0
+    </p>
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="icon bomb"
+    />
+    <p
+      className="count"
+    >
+      1
+    </p>
+  </div>
+</div>
+`;

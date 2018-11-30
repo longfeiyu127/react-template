@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pause /> component render 1`] = `
+<div
+  className="g-lig-Pause"
+>
+  <div
+    className="Pause-pause iconfont icon-pause"
+    name="pause"
+    onClick={[Function]}
+  />
+  <div
+    className="Pause-main hide"
+  >
+    <div
+      className="start iconfont icon-start"
+      name="start"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;
+
+exports[`<Pause /> component render 2`] = `
+<div
+  className="g-lig-Pause"
+>
+  <div
+    className="Pause-pause iconfont icon-pause"
+    name="pause"
+    onClick={[Function]}
+  />
+  <div
+    className="Pause-main "
+  >
+    <div
+      className="start iconfont icon-start"
+      name="start"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

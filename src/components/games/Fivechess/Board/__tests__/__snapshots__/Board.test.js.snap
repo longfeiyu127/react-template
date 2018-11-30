@@ -1,0 +1,8323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Board /> component render 1`] = `
+<div
+  className="g-fic-board"
+>
+  <main
+    className="board-main"
+  >
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece hide"
+          />
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer
+    className="board-footer"
+  />
+</div>
+`;
+
+exports[`<Board /> component render 2`] = `
+<div
+  className="g-fic-board"
+>
+  <main
+    className="board-main"
+  >
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareWhite"
+          />
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer
+    className="board-footer"
+  />
+</div>
+`;
+
+exports[`<Board /> component render 3`] = `
+<div
+  className="g-fic-board"
+>
+  <main
+    className="board-main"
+  >
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="g-fic-board-row"
+    >
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+      <div
+        className="g-fic-square"
+        onClick={[Function]}
+      >
+        <div
+          className="squareItem "
+        >
+          <div
+            className="squarePiece squareBlack"
+          />
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer
+    className="board-footer"
+  />
+</div>
+`;

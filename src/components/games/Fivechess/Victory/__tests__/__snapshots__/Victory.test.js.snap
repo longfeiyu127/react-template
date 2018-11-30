@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Victory /> component render 1`] = `
+<div
+  className="g-fic-victory"
+>
+  <p
+    className="victory"
+  >
+    victory： 
+  </p>
+  <p
+    className="result"
+  >
+    Again
+  </p>
+</div>
+`;
+
+exports[`<Victory /> component render 2`] = `
+<div
+  className="g-fic-victory"
+>
+  <p
+    className="victory"
+  >
+    victory： 
+    白
+  </p>
+  <p
+    className="result"
+  >
+    Again
+  </p>
+</div>
+`;

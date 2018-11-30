@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pointer /> component render 1`] = `
+<div
+  className="g-tic-pointer "
+>
+  <div
+    className="pointer crosswise hide"
+  />
+  <div
+    className="pointer vertical hide"
+  />
+  <div
+    className="pointer slant slant0"
+  />
+</div>
+`;
+
+exports[`<Pointer /> component render 2`] = `
+<div
+  className="g-tic-pointer "
+>
+  <div
+    className="pointer crosswise hide"
+  />
+  <div
+    className="pointer vertical vertical0"
+  />
+  <div
+    className="pointer slant hide"
+  />
+</div>
+`;
+
+exports[`<Pointer /> component render 3`] = `
+<div
+  className="g-tic-pointer "
+>
+  <div
+    className="pointer crosswise crosswise0"
+  />
+  <div
+    className="pointer vertical hide"
+  />
+  <div
+    className="pointer slant hide"
+  />
+</div>
+`;
+
+exports[`<Pointer /> component render 4`] = `
+<div
+  className="g-tic-pointer hide"
+>
+  <div
+    className="pointer crosswise hide"
+  />
+  <div
+    className="pointer vertical hide"
+  />
+  <div
+    className="pointer slant hide"
+  />
+</div>
+`;

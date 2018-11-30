@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter, Switch } from 'react-router-dom';
+// import { BrowserRouter, Switch } from 'react-router-dom';
+import { HashRouter, Switch } from 'react-router-dom';
 import { getPersistor } from '@rematch/persist';
 import { PersistGate } from 'redux-persist/lib/integration/react';
 import { renderRoutes } from 'react-router-config';
@@ -18,9 +19,9 @@ document.documentElement.style.fontSize = `${(window.innerWidth * 200) /
 ReactDOM.render(
   <Provider store={store}>
     <PersistGate persistor={persistor}>
-      <BrowserRouter>
+      <HashRouter>
         <Switch>{renderRoutes(routes)}</Switch>
-      </BrowserRouter>
+      </HashRouter>
     </PersistGate>
   </Provider>,
   document.getElementById('root')
