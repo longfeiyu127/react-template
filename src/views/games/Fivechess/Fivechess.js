@@ -9,7 +9,7 @@ import Firework from '../../../components/common/Firework/Firework';
 import './Fivechess.less';
 import { fullScreen, isFullscreen } from '../../../utils/fullScreen';
 
-function Fivechess(props) {
+export function Fivechess(props) {
   // eslint-disable-next-line
   const { history, winner, winnerCoord, isBlack, handleClick, reset } = props;
   const current = history[history.length - 1];

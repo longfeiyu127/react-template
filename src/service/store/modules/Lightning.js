@@ -34,12 +34,12 @@ import PlayerConfig from '../../config/Lightning/PlayerConfig';
 //   }
 // };
 
-function deepCopy(params) {
+export function deepCopy(params) {
   return JSON.parse(JSON.stringify(params));
 }
 
 // 移动敌机
-function EnemyPosition(enemy) {
+export function EnemyPosition(enemy) {
   const newEnemy = deepCopy(enemy);
   newEnemy.position.top = -0.5 * enemy.size.height;
   newEnemy.position.left = Math.random() * (3.75 - enemy.size.width);
@@ -48,11 +48,11 @@ function EnemyPosition(enemy) {
 }
 
 // 创建敌机
-function createEnemy(state) {
+export function createEnemy(state, test) {
   const { EnemyArr } = state;
   const newEnemy = [];
   const EnemyWeightA = Math.random() * 100;
-  if (EnemyWeightA < 10) {
+  if (EnemyWeightA < 10 || test) {
     newEnemy.push(EnemyPosition(EnemyConfig.enemyA0));
   } else if (EnemyWeightA >= 10 && EnemyWeightA < 20) {
     newEnemy.push(EnemyPosition(EnemyConfig.enemyA1));
@@ -60,14 +60,14 @@ function createEnemy(state) {
     newEnemy.push(EnemyPosition(EnemyConfig.enemyA2));
   }
   const EnemyWeightC = Math.random() * 100;
-  if (EnemyWeightC < 2) {
+  if (EnemyWeightC < 2 || test) {
     newEnemy.push(EnemyPosition(EnemyConfig.enemyC));
   }
   return EnemyArr.concat(newEnemy);
 }
 
 // 创建子弹
-function createBullet(state) {
+export function createBullet(state) {
   const { BulletArr, playerTop, playerLeft } = state;
   const position = {
     top: playerTop,
@@ -90,7 +90,7 @@ function createBullet(state) {
 }
 
 // 处理敌机移动
-function EnemyControll(EnemyArr, screen) {
+export function EnemyControll(EnemyArr, screen) {
   const EnemyArrRes = EnemyArr.map(item => {
     // console.log(config.enemyType[item.enemyType])
     // console.log(item.speed);
@@ -106,7 +106,7 @@ function EnemyControll(EnemyArr, screen) {
 }
 
 //  处理子弹移动(处理超出边界子弹)
-function BulletControll(BulletArr) {
+export function BulletControll(BulletArr) {
   const BulletArrRes = BulletArr.map(item => {
     // eslint-disable-next-line
     item.position.top -= item.speed;
@@ -116,7 +116,7 @@ function BulletControll(BulletArr) {
 }
 
 // 检查碰撞
-function crashEngine(EnemyArr, BulletArr) {
+export function crashEngine(EnemyArr, BulletArr) {
   const RemainsArr = [];
   EnemyArr.map((EnemyItem, EnemyIndex) => {
     BulletArr.map((BulletItem, BulletIndex) => {

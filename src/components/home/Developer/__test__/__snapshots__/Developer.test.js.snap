@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Developer /> component render 1`] = `
+<h2>
+  开发者
+</h2>
+`;
+
+exports[`<Developer /> component render 2`] = `
+<h2>
+  开发者
+</h2>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Ranks /> component render 1`] = `
+<h2>
+  排行榜22223333
+</h2>
+`;
+
+exports[`<Ranks /> component render 2`] = `
+<h2>
+  排行榜22223333
+</h2>
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Lightning /> component render 1`] = `
+<div
+  className="g-lightning"
+/>
+`;
+
+exports[`<Lightning /> component render 2`] = `
+<div
+  className="g-lightning"
+/>
+`;

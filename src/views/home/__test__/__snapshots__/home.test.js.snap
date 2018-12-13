@@ -1,0 +1,921 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> component render 1`] = `
+<div
+  style={
+    Object {
+      "height": "100%",
+      "position": "fixed",
+      "top": 0,
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="am-tab-bar"
+  >
+    <div
+      className="am-tabs am-tabs-horizontal am-tabs-bottom"
+    >
+      <div
+        className="am-tabs-content-wrap"
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "left": "0%",
+            "position": "relative",
+            "touchAction": "pan-x pan-y",
+          }
+        }
+      >
+        <div
+          aria-hidden={false}
+          aria-labelledby="m-tabs-0-0"
+          className="am-tabs-pane-wrap am-tabs-pane-wrap-active"
+          role="tabpanel"
+          style={Object {}}
+        >
+          <div
+            className="am-tab-bar-item"
+          >
+            <div
+              className="home-games"
+            >
+              <div
+                className="am-tabs am-tabs-horizontal am-tabs-top"
+              >
+                <div
+                  className="am-tabs-tab-bar-wrap"
+                >
+                  <div
+                    className="am-tabs-default-bar am-tabs-default-bar-animated am-tabs-default-bar-top"
+                    style={
+                      Object {
+                        "backgroundColor": "#fff",
+                      }
+                    }
+                  >
+                    <div
+                      className="am-tabs-default-bar-content"
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      role="tablist"
+                      style={
+                        Object {
+                          "touchAction": "pan-y",
+                        }
+                      }
+                    >
+                      <div
+                        aria-selected={true}
+                        className="am-tabs-default-bar-tab am-tabs-default-bar-tab-active"
+                        id="m-tabs-1-0"
+                        onClick={[Function]}
+                        role="tab"
+                        style={
+                          Object {
+                            "width": "33.333333333333336%",
+                          }
+                        }
+                      >
+                        <span
+                          className="am-badge"
+                        >
+                          全部
+                        </span>
+                      </div>
+                      <div
+                        aria-selected={false}
+                        className="am-tabs-default-bar-tab"
+                        id="m-tabs-1-1"
+                        onClick={[Function]}
+                        role="tab"
+                        style={
+                          Object {
+                            "width": "33.333333333333336%",
+                          }
+                        }
+                      >
+                        <span
+                          className="am-badge"
+                        >
+                          热门
+                        </span>
+                      </div>
+                      <div
+                        aria-selected={false}
+                        className="am-tabs-default-bar-tab"
+                        id="m-tabs-1-2"
+                        onClick={[Function]}
+                        role="tab"
+                        style={
+                          Object {
+                            "width": "33.333333333333336%",
+                          }
+                        }
+                      >
+                        <span
+                          className="am-badge"
+                        >
+                          分类
+                        </span>
+                      </div>
+                      <div
+                        className="am-tabs-default-bar-underline"
+                        style={
+                          Object {
+                            "left": "0%",
+                            "width": "33.333333333333336%",
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="am-tabs-content-wrap am-tabs-content-wrap-animated"
+                  onTouchCancel={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  style={
+                    Object {
+                      "MozTransform": "translate3d(0%, 0px, 1px)",
+                      "WebkitTransform": "translate3d(0%, 0px, 1px)",
+                      "touchAction": "pan-x pan-y",
+                      "transform": "translate3d(0%, 0px, 1px)",
+                    }
+                  }
+                >
+                  <div
+                    aria-hidden={false}
+                    aria-labelledby="m-tabs-1-0"
+                    className="am-tabs-pane-wrap am-tabs-pane-wrap-active"
+                    role="tabpanel"
+                    style={Object {}}
+                  >
+                    <div>
+                      <div
+                        className="home-TabItem"
+                      >
+                        <img
+                          alt="icon"
+                          className="TabItem-banner"
+                          src="lightning_icon.png"
+                        />
+                        <div
+                          className="TabItem-content"
+                        >
+                          <h5
+                            className="title"
+                          >
+                            单机雷电
+                          </h5>
+                          <p>
+                            点击雷电是一款炫酷华丽的飞机射击类单机游戏！超华丽的画面、超炫酷的爆炸效果、超流畅的手感，让你在万里苍穹一展雄姿！攻击特效华丽夸张！刺激火爆的场面
+                          </p>
+                        </div>
+                        <div
+                          className="TabItem-button"
+                          onClick={[Function]}
+                        >
+                          打开
+                        </div>
+                      </div>
+                      <div
+                        className="home-TabItem"
+                      >
+                        <img
+                          alt="icon"
+                          className="TabItem-banner"
+                          src="tictactoe_launcher.png"
+                        />
+                        <div
+                          className="TabItem-content"
+                        >
+                          <h5
+                            className="title"
+                          >
+                            井字棋
+                          </h5>
+                          <p>
+                            井字棋游戏是一款非常好的亲子游戏,既锻炼小孩子的思维,又能培养亲子之间的感情,来吧!一起体验井字棋的乐趣吧!
+                          </p>
+                        </div>
+                        <div
+                          className="TabItem-button"
+                          onClick={[Function]}
+                        >
+                          打开
+                        </div>
+                      </div>
+                      <div
+                        className="home-TabItem"
+                      >
+                        <img
+                          alt="icon"
+                          className="TabItem-banner"
+                          src="fivechess_icon.png"
+                        />
+                        <div
+                          className="TabItem-content"
+                        >
+                          <h5
+                            className="title"
+                          >
+                            五子棋
+                          </h5>
+                          <p>
+                            五子棋游戏的历史可谓源远流长,是一款老少皆宜的两人对弈纯策略游戏,讲究的是有攻有守的五子棋技巧,玩法简单易上手,五个同色棋子连成一线就可以获胜
+                          </p>
+                        </div>
+                        <div
+                          className="TabItem-button"
+                          onClick={[Function]}
+                        >
+                          打开
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden={true}
+                    aria-labelledby="m-tabs-1-1"
+                    className="am-tabs-pane-wrap am-tabs-pane-wrap-inactive"
+                    role="tabpanel"
+                    style={Object {}}
+                  >
+                    <div>
+                      <div
+                        className="home-TabItem"
+                      >
+                        <img
+                          alt="icon"
+                          className="TabItem-banner"
+                          src="lightning_icon.png"
+                        />
+                        <div
+                          className="TabItem-content"
+                        >
+                          <h5
+                            className="title"
+                          >
+                            单机雷电
+                          </h5>
+                          <p>
+                            点击雷电是一款炫酷华丽的飞机射击类单机游戏！超华丽的画面、超炫酷的爆炸效果、超流畅的手感，让你在万里苍穹一展雄姿！攻击特效华丽夸张！刺激火爆的场面
+                          </p>
+                        </div>
+                        <div
+                          className="TabItem-button"
+                          onClick={[Function]}
+                        >
+                          打开
+                        </div>
+                      </div>
+                      <div
+                        className="home-TabItem"
+                      >
+                        <img
+                          alt="icon"
+                          className="TabItem-banner"
+                          src="tictactoe_launcher.png"
+                        />
+                        <div
+                          className="TabItem-content"
+                        >
+                          <h5
+                            className="title"
+                          >
+                            井字棋
+                          </h5>
+                          <p>
+                            井字棋游戏是一款非常好的亲子游戏,既锻炼小孩子的思维,又能培养亲子之间的感情,来吧!一起体验井字棋的乐趣吧!
+                          </p>
+                        </div>
+                        <div
+                          className="TabItem-button"
+                          onClick={[Function]}
+                        >
+                          打开
+                        </div>
+                      </div>
+                      <div
+                        className="home-TabItem"
+                      >
+                        <img
+                          alt="icon"
+                          className="TabItem-banner"
+                          src="fivechess_icon.png"
+                        />
+                        <div
+                          className="TabItem-content"
+                        >
+                          <h5
+                            className="title"
+                          >
+                            五子棋
+                          </h5>
+                          <p>
+                            五子棋游戏的历史可谓源远流长,是一款老少皆宜的两人对弈纯策略游戏,讲究的是有攻有守的五子棋技巧,玩法简单易上手,五个同色棋子连成一线就可以获胜
+                          </p>
+                        </div>
+                        <div
+                          className="TabItem-button"
+                          onClick={[Function]}
+                        >
+                          打开
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden={true}
+                    aria-labelledby="m-tabs-1-2"
+                    className="am-tabs-pane-wrap am-tabs-pane-wrap-inactive"
+                    role="tabpanel"
+                    style={Object {}}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-hidden={true}
+          aria-labelledby="m-tabs-0-1"
+          className="am-tabs-pane-wrap am-tabs-pane-wrap-inactive"
+          role="tabpanel"
+          style={Object {}}
+        />
+        <div
+          aria-hidden={true}
+          aria-labelledby="m-tabs-0-2"
+          className="am-tabs-pane-wrap am-tabs-pane-wrap-inactive"
+          role="tabpanel"
+          style={Object {}}
+        />
+      </div>
+      <div
+        className="am-tabs-tab-bar-wrap"
+      >
+        <div
+          className="am-tab-bar-bar"
+          style={
+            Object {
+              "backgroundColor": "white",
+            }
+          }
+        >
+          <div
+            className="am-tab-bar-tab"
+            onClick={[Function]}
+          >
+            <div
+              className="am-tab-bar-tab-icon"
+              style={
+                Object {
+                  "color": "#108ee9",
+                }
+              }
+            >
+              <i
+                className="iconfont icon-games icon-selected"
+              />
+            </div>
+            <p
+              className="am-tab-bar-tab-title"
+              style={
+                Object {
+                  "color": "#108ee9",
+                }
+              }
+            >
+              游戏库
+            </p>
+          </div>
+          <div
+            className="am-tab-bar-tab"
+            onClick={[Function]}
+          >
+            <div
+              className="am-tab-bar-tab-icon"
+              style={
+                Object {
+                  "color": "#888",
+                }
+              }
+            >
+              <i
+                className="iconfont icon-ranks"
+              />
+            </div>
+            <p
+              className="am-tab-bar-tab-title"
+              style={
+                Object {
+                  "color": "#888",
+                }
+              }
+            >
+              排行榜
+            </p>
+          </div>
+          <div
+            className="am-tab-bar-tab"
+            onClick={[Function]}
+          >
+            <div
+              className="am-tab-bar-tab-icon"
+              style={
+                Object {
+                  "color": "#888",
+                }
+              }
+            >
+              <i
+                className="iconfont icon-developer"
+              />
+            </div>
+            <p
+              className="am-tab-bar-tab-title"
+              style={
+                Object {
+                  "color": "#888",
+                }
+              }
+            >
+              开发者
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Home /> component render 2`] = `
+<div
+  style={
+    Object {
+      "height": "100%",
+      "position": "fixed",
+      "top": 0,
+      "width": "100%",
+    }
+  }
+>
+  <div
+    className="am-tab-bar"
+  >
+    <div
+      className="am-tabs am-tabs-horizontal am-tabs-bottom"
+    >
+      <div
+        className="am-tabs-content-wrap"
+        onTouchCancel={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        style={
+          Object {
+            "left": "0%",
+            "position": "relative",
+            "touchAction": "pan-x pan-y",
+          }
+        }
+      >
+        <div
+          aria-hidden={false}
+          aria-labelledby="m-tabs-2-0"
+          className="am-tabs-pane-wrap am-tabs-pane-wrap-active"
+          role="tabpanel"
+          style={Object {}}
+        >
+          <div
+            className="am-tab-bar-item"
+          >
+            <div
+              className="home-games"
+            >
+              <div
+                className="am-tabs am-tabs-horizontal am-tabs-top"
+              >
+                <div
+                  className="am-tabs-tab-bar-wrap"
+                >
+                  <div
+                    className="am-tabs-default-bar am-tabs-default-bar-animated am-tabs-default-bar-top"
+                    style={
+                      Object {
+                        "backgroundColor": "#fff",
+                      }
+                    }
+                  >
+                    <div
+                      className="am-tabs-default-bar-content"
+                      onTouchCancel={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchMove={[Function]}
+                      onTouchStart={[Function]}
+                      role="tablist"
+                      style={
+                        Object {
+                          "touchAction": "pan-y",
+                        }
+                      }
+                    >
+                      <div
+                        aria-selected={true}
+                        className="am-tabs-default-bar-tab am-tabs-default-bar-tab-active"
+                        id="m-tabs-3-0"
+                        onClick={[Function]}
+                        role="tab"
+                        style={
+                          Object {
+                            "width": "33.333333333333336%",
+                          }
+                        }
+                      >
+                        <span
+                          className="am-badge"
+                        >
+                          全部
+                        </span>
+                      </div>
+                      <div
+                        aria-selected={false}
+                        className="am-tabs-default-bar-tab"
+                        id="m-tabs-3-1"
+                        onClick={[Function]}
+                        role="tab"
+                        style={
+                          Object {
+                            "width": "33.333333333333336%",
+                          }
+                        }
+                      >
+                        <span
+                          className="am-badge"
+                        >
+                          热门
+                        </span>
+                      </div>
+                      <div
+                        aria-selected={false}
+                        className="am-tabs-default-bar-tab"
+                        id="m-tabs-3-2"
+                        onClick={[Function]}
+                        role="tab"
+                        style={
+                          Object {
+                            "width": "33.333333333333336%",
+                          }
+                        }
+                      >
+                        <span
+                          className="am-badge"
+                        >
+                          分类
+                        </span>
+                      </div>
+                      <div
+                        className="am-tabs-default-bar-underline"
+                        style={
+                          Object {
+                            "left": "0%",
+                            "width": "33.333333333333336%",
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  className="am-tabs-content-wrap am-tabs-content-wrap-animated"
+                  onTouchCancel={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                  style={
+                    Object {
+                      "MozTransform": "translate3d(0%, 0px, 1px)",
+                      "WebkitTransform": "translate3d(0%, 0px, 1px)",
+                      "touchAction": "pan-x pan-y",
+                      "transform": "translate3d(0%, 0px, 1px)",
+                    }
+                  }
+                >
+                  <div
+                    aria-hidden={false}
+                    aria-labelledby="m-tabs-3-0"
+                    className="am-tabs-pane-wrap am-tabs-pane-wrap-active"
+                    role="tabpanel"
+                    style={Object {}}
+                  >
+                    <div>
+                      <div
+                        className="home-TabItem"
+                      >
+                        <img
+                          alt="icon"
+                          className="TabItem-banner"
+                          src="lightning_icon.png"
+                        />
+                        <div
+                          className="TabItem-content"
+                        >
+                          <h5
+                            className="title"
+                          >
+                            单机雷电
+                          </h5>
+                          <p>
+                            点击雷电是一款炫酷华丽的飞机射击类单机游戏！超华丽的画面、超炫酷的爆炸效果、超流畅的手感，让你在万里苍穹一展雄姿！攻击特效华丽夸张！刺激火爆的场面
+                          </p>
+                        </div>
+                        <div
+                          className="TabItem-button"
+                          onClick={[Function]}
+                        >
+                          打开
+                        </div>
+                      </div>
+                      <div
+                        className="home-TabItem"
+                      >
+                        <img
+                          alt="icon"
+                          className="TabItem-banner"
+                          src="tictactoe_launcher.png"
+                        />
+                        <div
+                          className="TabItem-content"
+                        >
+                          <h5
+                            className="title"
+                          >
+                            井字棋
+                          </h5>
+                          <p>
+                            井字棋游戏是一款非常好的亲子游戏,既锻炼小孩子的思维,又能培养亲子之间的感情,来吧!一起体验井字棋的乐趣吧!
+                          </p>
+                        </div>
+                        <div
+                          className="TabItem-button"
+                          onClick={[Function]}
+                        >
+                          打开
+                        </div>
+                      </div>
+                      <div
+                        className="home-TabItem"
+                      >
+                        <img
+                          alt="icon"
+                          className="TabItem-banner"
+                          src="fivechess_icon.png"
+                        />
+                        <div
+                          className="TabItem-content"
+                        >
+                          <h5
+                            className="title"
+                          >
+                            五子棋
+                          </h5>
+                          <p>
+                            五子棋游戏的历史可谓源远流长,是一款老少皆宜的两人对弈纯策略游戏,讲究的是有攻有守的五子棋技巧,玩法简单易上手,五个同色棋子连成一线就可以获胜
+                          </p>
+                        </div>
+                        <div
+                          className="TabItem-button"
+                          onClick={[Function]}
+                        >
+                          打开
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden={true}
+                    aria-labelledby="m-tabs-3-1"
+                    className="am-tabs-pane-wrap am-tabs-pane-wrap-inactive"
+                    role="tabpanel"
+                    style={Object {}}
+                  >
+                    <div>
+                      <div
+                        className="home-TabItem"
+                      >
+                        <img
+                          alt="icon"
+                          className="TabItem-banner"
+                          src="lightning_icon.png"
+                        />
+                        <div
+                          className="TabItem-content"
+                        >
+                          <h5
+                            className="title"
+                          >
+                            单机雷电
+                          </h5>
+                          <p>
+                            点击雷电是一款炫酷华丽的飞机射击类单机游戏！超华丽的画面、超炫酷的爆炸效果、超流畅的手感，让你在万里苍穹一展雄姿！攻击特效华丽夸张！刺激火爆的场面
+                          </p>
+                        </div>
+                        <div
+                          className="TabItem-button"
+                          onClick={[Function]}
+                        >
+                          打开
+                        </div>
+                      </div>
+                      <div
+                        className="home-TabItem"
+                      >
+                        <img
+                          alt="icon"
+                          className="TabItem-banner"
+                          src="tictactoe_launcher.png"
+                        />
+                        <div
+                          className="TabItem-content"
+                        >
+                          <h5
+                            className="title"
+                          >
+                            井字棋
+                          </h5>
+                          <p>
+                            井字棋游戏是一款非常好的亲子游戏,既锻炼小孩子的思维,又能培养亲子之间的感情,来吧!一起体验井字棋的乐趣吧!
+                          </p>
+                        </div>
+                        <div
+                          className="TabItem-button"
+                          onClick={[Function]}
+                        >
+                          打开
+                        </div>
+                      </div>
+                      <div
+                        className="home-TabItem"
+                      >
+                        <img
+                          alt="icon"
+                          className="TabItem-banner"
+                          src="fivechess_icon.png"
+                        />
+                        <div
+                          className="TabItem-content"
+                        >
+                          <h5
+                            className="title"
+                          >
+                            五子棋
+                          </h5>
+                          <p>
+                            五子棋游戏的历史可谓源远流长,是一款老少皆宜的两人对弈纯策略游戏,讲究的是有攻有守的五子棋技巧,玩法简单易上手,五个同色棋子连成一线就可以获胜
+                          </p>
+                        </div>
+                        <div
+                          className="TabItem-button"
+                          onClick={[Function]}
+                        >
+                          打开
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    aria-hidden={true}
+                    aria-labelledby="m-tabs-3-2"
+                    className="am-tabs-pane-wrap am-tabs-pane-wrap-inactive"
+                    role="tabpanel"
+                    style={Object {}}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          aria-hidden={true}
+          aria-labelledby="m-tabs-2-1"
+          className="am-tabs-pane-wrap am-tabs-pane-wrap-inactive"
+          role="tabpanel"
+          style={Object {}}
+        />
+        <div
+          aria-hidden={true}
+          aria-labelledby="m-tabs-2-2"
+          className="am-tabs-pane-wrap am-tabs-pane-wrap-inactive"
+          role="tabpanel"
+          style={Object {}}
+        />
+      </div>
+      <div
+        className="am-tabs-tab-bar-wrap"
+      >
+        <div
+          className="am-tab-bar-bar"
+          style={
+            Object {
+              "backgroundColor": "white",
+            }
+          }
+        >
+          <div
+            className="am-tab-bar-tab"
+            onClick={[Function]}
+          >
+            <div
+              className="am-tab-bar-tab-icon"
+              style={
+                Object {
+                  "color": "#108ee9",
+                }
+              }
+            >
+              <i
+                className="iconfont icon-games icon-selected"
+              />
+            </div>
+            <p
+              className="am-tab-bar-tab-title"
+              style={
+                Object {
+                  "color": "#108ee9",
+                }
+              }
+            >
+              游戏库
+            </p>
+          </div>
+          <div
+            className="am-tab-bar-tab"
+            onClick={[Function]}
+          >
+            <div
+              className="am-tab-bar-tab-icon"
+              style={
+                Object {
+                  "color": "#888",
+                }
+              }
+            >
+              <i
+                className="iconfont icon-ranks"
+              />
+            </div>
+            <p
+              className="am-tab-bar-tab-title"
+              style={
+                Object {
+                  "color": "#888",
+                }
+              }
+            >
+              排行榜
+            </p>
+          </div>
+          <div
+            className="am-tab-bar-tab"
+            onClick={[Function]}
+          >
+            <div
+              className="am-tab-bar-tab-icon"
+              style={
+                Object {
+                  "color": "#888",
+                }
+              }
+            >
+              <i
+                className="iconfont icon-developer"
+              />
+            </div>
+            <p
+              className="am-tab-bar-tab-title"
+              style={
+                Object {
+                  "color": "#888",
+                }
+              }
+            >
+              开发者
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

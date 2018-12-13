@@ -1,5 +1,5 @@
 // 1.横向
-function Crosswise(squares, i, j) {
+export function Crosswise(squares, i, j) {
   // 前面的相同棋子
   const target = squares[i][j];
   let [prev, next] = [0, 0];
@@ -18,7 +18,7 @@ function Crosswise(squares, i, j) {
   return prev + next === 4 ? [[i, j - prev], [i, j + next]] : false;
 }
 // 2.竖向
-function Vertical(squares, i, j) {
+export function Vertical(squares, i, j) {
   const target = squares[i][j];
   let [prev, next] = [0, 0];
   while (true) {
@@ -36,7 +36,7 @@ function Vertical(squares, i, j) {
   return prev + next === 4 ? [[i - prev, j], [i + next, j]] : false;
 }
 // 3.左上至右下
-function TopLeft(squares, i, j) {
+export function TopLeft(squares, i, j) {
   const target = squares[i][j];
   let [prev, next] = [0, 0];
   while (true) {
@@ -64,7 +64,7 @@ function TopLeft(squares, i, j) {
     : false;
 }
 // 4.右上至左下
-function TopRight(squares, i, j) {
+export function TopRight(squares, i, j) {
   const target = squares[i][j];
   let [prev, next] = [0, 0];
   while (true) {
@@ -92,7 +92,7 @@ function TopRight(squares, i, j) {
     : false;
 }
 
-function computeCoord(startPoint, endPoint) {
+export function computeCoord(startPoint, endPoint) {
   const [startI, startJ] = startPoint;
   const stepI = (endPoint[0] - startPoint[0]) / 4;
   const stepJ = (endPoint[1] - startPoint[1]) / 4;
@@ -103,7 +103,7 @@ function computeCoord(startPoint, endPoint) {
   ]);
 }
 
-function calculateWinner(...data) {
+export function calculateWinner(...data) {
   const [squares, i, j] = data;
   const piece = squares[i][j];
   const result =

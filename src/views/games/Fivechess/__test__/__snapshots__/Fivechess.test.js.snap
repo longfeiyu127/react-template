@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Fivechess /> component render 1`] = `
+<div
+  className="g-fivechess"
+>
+  <header
+    className="g-fic-header"
+  >
+    <div
+      className="maximize iconfont icon-maximize"
+      name="fullScreen"
+      onClick={[Function]}
+    />
+    <div
+      className="player"
+    >
+      <div
+        className="spark hide"
+      />
+      <div
+        className="piece pieceWhite"
+      />
+    </div>
+  </header>
+  <div
+    className="g-fic-board"
+  >
+    <main
+      className="board-main"
+    />
+    <footer
+      className="board-footer"
+    />
+  </div>
+  <footer
+    className="g-fic-footer"
+  />
+  <div
+    className="firework-box "
+  >
+    <div
+      className="firework"
+    >
+      <div
+        className="before"
+      />
+      <div
+        className="after"
+      />
+    </div>
+    <div
+      className="g-fic-victory"
+    >
+      <p
+        className="victory"
+      >
+        victory： 
+        whitle
+      </p>
+      <p
+        className="result"
+        onClick={[Function]}
+      >
+        Again
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Fivechess /> component render 2`] = `
+<div
+  className="g-fivechess"
+>
+  <header
+    className="g-fic-header"
+  >
+    <div
+      className="maximize iconfont icon-maximize"
+      name="fullScreen"
+      onClick={[Function]}
+    />
+    <div
+      className="player"
+    >
+      <div
+        className="spark hide"
+      />
+      <div
+        className="piece pieceWhite"
+      />
+    </div>
+  </header>
+  <div
+    className="g-fic-board"
+  >
+    <main
+      className="board-main"
+    />
+    <footer
+      className="board-footer"
+    />
+  </div>
+  <footer
+    className="g-fic-footer"
+  />
+  <div
+    className="firework-box "
+  >
+    <div
+      className="firework"
+    >
+      <div
+        className="before"
+      />
+      <div
+        className="after"
+      />
+    </div>
+    <div
+      className="g-fic-victory"
+    >
+      <p
+        className="victory"
+      >
+        victory： 
+        whitle
+      </p>
+      <p
+        className="result"
+        onClick={[Function]}
+      >
+        Again
+      </p>
+    </div>
+  </div>
+</div>
+`;
